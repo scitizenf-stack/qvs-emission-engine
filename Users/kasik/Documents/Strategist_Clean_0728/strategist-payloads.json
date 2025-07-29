@@ -1,0 +1,110 @@
+[
+  {
+    "handler": "cosmosAgent",
+    "endpoint": "/cosmos-agent",
+    "payload": {
+      "action": "test-cosmosAgent",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for cosmosAgent",
+        "auth": "demo-token"
+      }
+    }
+  },
+  {
+    "handler": "epochSim",
+    "endpoint": "/epoch-sim",
+    "payload": {
+      "action": "test-epochSim",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for epochSim",
+        "auth": "demo-token"
+      }
+    }
+  },
+  {
+    "handler": "goldTrade",
+    "endpoint": "/gold-trade",
+    "payload": {
+      "action": "test-goldTrade",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for goldTrade",
+        "auth": "demo-token"
+      }
+    }
+  },
+  {
+    "handler": "immortalityLoop",
+    "endpoint": "/immortality-loop",
+    "payload": {
+      "action": "test-immortalityLoop",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for immortalityLoop",
+        "auth": "demo-token"
+      }
+    }
+  },
+  {
+    "handler": "index",
+    "endpoint": "/index",
+    "payload": {
+      "action": "test-index",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for index",
+        "auth": "demo-token"
+      }
+    }
+  },
+  {
+    "handler": "redTeamProbe",
+    "endpoint": "/red-team-probe",
+    "payload": {
+      "action": "test-redTeamProbe",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for redTeamProbe",
+        "auth": "demo-token"
+      }
+    }
+  },
+  {
+    "handler": "vaultHandler",
+    "endpoint": "/vault-handler",
+    "payload": {
+      "action": "test-vaultHandler",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for vaultHandler",
+        "auth": "demo-token"
+      }
+    }
+  },
+  {
+    "handler": "voteEngine",
+    "endpoint": "/vote-engine",
+    "payload": {
+      "action": "test-voteEngine",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for voteEngine",
+        "auth": "demo-token"
+      }
+    }
+  },
+  {
+    "handler": "zeroizationWatch",
+    "endpoint": "/zeroization-watch",
+    "payload": {
+      "action": "test-zeroizationWatch",
+      "timestamp": "2025-07-24T09:02:55.153Z",
+      "data": {
+        "sample": "Payload for zeroizationWatch",
+        "auth": "demo-token"
+      }
+    }
+  }
+]

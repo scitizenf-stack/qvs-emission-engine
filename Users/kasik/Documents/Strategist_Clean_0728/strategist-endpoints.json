@@ -1,0 +1,5047 @@
+[
+  {
+    "handler": "cosmosAgent",
+    "module": "strategist-core/cosmosAgent.ts",
+    "endpoint": "/cosmos-agent"
+  },
+  {
+    "handler": "epochSim",
+    "module": "strategist-core/epochSim.ts",
+    "endpoint": "/epoch-sim"
+  },
+  {
+    "handler": "goldTrade",
+    "module": "strategist-core/goldTrade.ts",
+    "endpoint": "/gold-trade"
+  },
+  {
+    "handler": "immortalityLoop",
+    "module": "strategist-core/immortalityLoop.ts",
+    "endpoint": "/immortality-loop"
+  },
+  {
+    "handler": "index",
+    "module": "strategist-core/index.ts",
+    "endpoint": "/index"
+  },
+  {
+    "handler": "redTeamProbe",
+    "module": "strategist-core/redTeamProbe.ts",
+    "endpoint": "/red-team-probe"
+  },
+  {
+    "handler": "strategist1",
+    "module": "strategist-core/strategist1.ts",
+    "endpoint": "/strategist1"
+  },
+  {
+    "handler": "strategist10",
+    "module": "strategist-core/strategist10.ts",
+    "endpoint": "/strategist10"
+  },
+  {
+    "handler": "strategist100",
+    "module": "strategist-core/strategist100.ts",
+    "endpoint": "/strategist100"
+  },
+  {
+    "handler": "strategist1000",
+    "module": "strategist-core/strategist1000.ts",
+    "endpoint": "/strategist1000"
+  },
+  {
+    "handler": "strategist101",
+    "module": "strategist-core/strategist101.ts",
+    "endpoint": "/strategist101"
+  },
+  {
+    "handler": "strategist102",
+    "module": "strategist-core/strategist102.ts",
+    "endpoint": "/strategist102"
+  },
+  {
+    "handler": "strategist103",
+    "module": "strategist-core/strategist103.ts",
+    "endpoint": "/strategist103"
+  },
+  {
+    "handler": "strategist104",
+    "module": "strategist-core/strategist104.ts",
+    "endpoint": "/strategist104"
+  },
+  {
+    "handler": "strategist105",
+    "module": "strategist-core/strategist105.ts",
+    "endpoint": "/strategist105"
+  },
+  {
+    "handler": "strategist106",
+    "module": "strategist-core/strategist106.ts",
+    "endpoint": "/strategist106"
+  },
+  {
+    "handler": "strategist107",
+    "module": "strategist-core/strategist107.ts",
+    "endpoint": "/strategist107"
+  },
+  {
+    "handler": "strategist108",
+    "module": "strategist-core/strategist108.ts",
+    "endpoint": "/strategist108"
+  },
+  {
+    "handler": "strategist109",
+    "module": "strategist-core/strategist109.ts",
+    "endpoint": "/strategist109"
+  },
+  {
+    "handler": "strategist11",
+    "module": "strategist-core/strategist11.ts",
+    "endpoint": "/strategist11"
+  },
+  {
+    "handler": "strategist110",
+    "module": "strategist-core/strategist110.ts",
+    "endpoint": "/strategist110"
+  },
+  {
+    "handler": "strategist111",
+    "module": "strategist-core/strategist111.ts",
+    "endpoint": "/strategist111"
+  },
+  {
+    "handler": "strategist112",
+    "module": "strategist-core/strategist112.ts",
+    "endpoint": "/strategist112"
+  },
+  {
+    "handler": "strategist113",
+    "module": "strategist-core/strategist113.ts",
+    "endpoint": "/strategist113"
+  },
+  {
+    "handler": "strategist114",
+    "module": "strategist-core/strategist114.ts",
+    "endpoint": "/strategist114"
+  },
+  {
+    "handler": "strategist115",
+    "module": "strategist-core/strategist115.ts",
+    "endpoint": "/strategist115"
+  },
+  {
+    "handler": "strategist116",
+    "module": "strategist-core/strategist116.ts",
+    "endpoint": "/strategist116"
+  },
+  {
+    "handler": "strategist117",
+    "module": "strategist-core/strategist117.ts",
+    "endpoint": "/strategist117"
+  },
+  {
+    "handler": "strategist118",
+    "module": "strategist-core/strategist118.ts",
+    "endpoint": "/strategist118"
+  },
+  {
+    "handler": "strategist119",
+    "module": "strategist-core/strategist119.ts",
+    "endpoint": "/strategist119"
+  },
+  {
+    "handler": "strategist12",
+    "module": "strategist-core/strategist12.ts",
+    "endpoint": "/strategist12"
+  },
+  {
+    "handler": "strategist120",
+    "module": "strategist-core/strategist120.ts",
+    "endpoint": "/strategist120"
+  },
+  {
+    "handler": "strategist121",
+    "module": "strategist-core/strategist121.ts",
+    "endpoint": "/strategist121"
+  },
+  {
+    "handler": "strategist122",
+    "module": "strategist-core/strategist122.ts",
+    "endpoint": "/strategist122"
+  },
+  {
+    "handler": "strategist123",
+    "module": "strategist-core/strategist123.ts",
+    "endpoint": "/strategist123"
+  },
+  {
+    "handler": "strategist124",
+    "module": "strategist-core/strategist124.ts",
+    "endpoint": "/strategist124"
+  },
+  {
+    "handler": "strategist125",
+    "module": "strategist-core/strategist125.ts",
+    "endpoint": "/strategist125"
+  },
+  {
+    "handler": "strategist126",
+    "module": "strategist-core/strategist126.ts",
+    "endpoint": "/strategist126"
+  },
+  {
+    "handler": "strategist127",
+    "module": "strategist-core/strategist127.ts",
+    "endpoint": "/strategist127"
+  },
+  {
+    "handler": "strategist128",
+    "module": "strategist-core/strategist128.ts",
+    "endpoint": "/strategist128"
+  },
+  {
+    "handler": "strategist129",
+    "module": "strategist-core/strategist129.ts",
+    "endpoint": "/strategist129"
+  },
+  {
+    "handler": "strategist13",
+    "module": "strategist-core/strategist13.ts",
+    "endpoint": "/strategist13"
+  },
+  {
+    "handler": "strategist130",
+    "module": "strategist-core/strategist130.ts",
+    "endpoint": "/strategist130"
+  },
+  {
+    "handler": "strategist131",
+    "module": "strategist-core/strategist131.ts",
+    "endpoint": "/strategist131"
+  },
+  {
+    "handler": "strategist132",
+    "module": "strategist-core/strategist132.ts",
+    "endpoint": "/strategist132"
+  },
+  {
+    "handler": "strategist133",
+    "module": "strategist-core/strategist133.ts",
+    "endpoint": "/strategist133"
+  },
+  {
+    "handler": "strategist134",
+    "module": "strategist-core/strategist134.ts",
+    "endpoint": "/strategist134"
+  },
+  {
+    "handler": "strategist135",
+    "module": "strategist-core/strategist135.ts",
+    "endpoint": "/strategist135"
+  },
+  {
+    "handler": "strategist136",
+    "module": "strategist-core/strategist136.ts",
+    "endpoint": "/strategist136"
+  },
+  {
+    "handler": "strategist137",
+    "module": "strategist-core/strategist137.ts",
+    "endpoint": "/strategist137"
+  },
+  {
+    "handler": "strategist138",
+    "module": "strategist-core/strategist138.ts",
+    "endpoint": "/strategist138"
+  },
+  {
+    "handler": "strategist139",
+    "module": "strategist-core/strategist139.ts",
+    "endpoint": "/strategist139"
+  },
+  {
+    "handler": "strategist14",
+    "module": "strategist-core/strategist14.ts",
+    "endpoint": "/strategist14"
+  },
+  {
+    "handler": "strategist140",
+    "module": "strategist-core/strategist140.ts",
+    "endpoint": "/strategist140"
+  },
+  {
+    "handler": "strategist141",
+    "module": "strategist-core/strategist141.ts",
+    "endpoint": "/strategist141"
+  },
+  {
+    "handler": "strategist142",
+    "module": "strategist-core/strategist142.ts",
+    "endpoint": "/strategist142"
+  },
+  {
+    "handler": "strategist143",
+    "module": "strategist-core/strategist143.ts",
+    "endpoint": "/strategist143"
+  },
+  {
+    "handler": "strategist144",
+    "module": "strategist-core/strategist144.ts",
+    "endpoint": "/strategist144"
+  },
+  {
+    "handler": "strategist145",
+    "module": "strategist-core/strategist145.ts",
+    "endpoint": "/strategist145"
+  },
+  {
+    "handler": "strategist146",
+    "module": "strategist-core/strategist146.ts",
+    "endpoint": "/strategist146"
+  },
+  {
+    "handler": "strategist147",
+    "module": "strategist-core/strategist147.ts",
+    "endpoint": "/strategist147"
+  },
+  {
+    "handler": "strategist148",
+    "module": "strategist-core/strategist148.ts",
+    "endpoint": "/strategist148"
+  },
+  {
+    "handler": "strategist149",
+    "module": "strategist-core/strategist149.ts",
+    "endpoint": "/strategist149"
+  },
+  {
+    "handler": "strategist15",
+    "module": "strategist-core/strategist15.ts",
+    "endpoint": "/strategist15"
+  },
+  {
+    "handler": "strategist150",
+    "module": "strategist-core/strategist150.ts",
+    "endpoint": "/strategist150"
+  },
+  {
+    "handler": "strategist151",
+    "module": "strategist-core/strategist151.ts",
+    "endpoint": "/strategist151"
+  },
+  {
+    "handler": "strategist152",
+    "module": "strategist-core/strategist152.ts",
+    "endpoint": "/strategist152"
+  },
+  {
+    "handler": "strategist153",
+    "module": "strategist-core/strategist153.ts",
+    "endpoint": "/strategist153"
+  },
+  {
+    "handler": "strategist154",
+    "module": "strategist-core/strategist154.ts",
+    "endpoint": "/strategist154"
+  },
+  {
+    "handler": "strategist155",
+    "module": "strategist-core/strategist155.ts",
+    "endpoint": "/strategist155"
+  },
+  {
+    "handler": "strategist156",
+    "module": "strategist-core/strategist156.ts",
+    "endpoint": "/strategist156"
+  },
+  {
+    "handler": "strategist157",
+    "module": "strategist-core/strategist157.ts",
+    "endpoint": "/strategist157"
+  },
+  {
+    "handler": "strategist158",
+    "module": "strategist-core/strategist158.ts",
+    "endpoint": "/strategist158"
+  },
+  {
+    "handler": "strategist159",
+    "module": "strategist-core/strategist159.ts",
+    "endpoint": "/strategist159"
+  },
+  {
+    "handler": "strategist16",
+    "module": "strategist-core/strategist16.ts",
+    "endpoint": "/strategist16"
+  },
+  {
+    "handler": "strategist160",
+    "module": "strategist-core/strategist160.ts",
+    "endpoint": "/strategist160"
+  },
+  {
+    "handler": "strategist161",
+    "module": "strategist-core/strategist161.ts",
+    "endpoint": "/strategist161"
+  },
+  {
+    "handler": "strategist162",
+    "module": "strategist-core/strategist162.ts",
+    "endpoint": "/strategist162"
+  },
+  {
+    "handler": "strategist163",
+    "module": "strategist-core/strategist163.ts",
+    "endpoint": "/strategist163"
+  },
+  {
+    "handler": "strategist164",
+    "module": "strategist-core/strategist164.ts",
+    "endpoint": "/strategist164"
+  },
+  {
+    "handler": "strategist165",
+    "module": "strategist-core/strategist165.ts",
+    "endpoint": "/strategist165"
+  },
+  {
+    "handler": "strategist166",
+    "module": "strategist-core/strategist166.ts",
+    "endpoint": "/strategist166"
+  },
+  {
+    "handler": "strategist167",
+    "module": "strategist-core/strategist167.ts",
+    "endpoint": "/strategist167"
+  },
+  {
+    "handler": "strategist168",
+    "module": "strategist-core/strategist168.ts",
+    "endpoint": "/strategist168"
+  },
+  {
+    "handler": "strategist169",
+    "module": "strategist-core/strategist169.ts",
+    "endpoint": "/strategist169"
+  },
+  {
+    "handler": "strategist17",
+    "module": "strategist-core/strategist17.ts",
+    "endpoint": "/strategist17"
+  },
+  {
+    "handler": "strategist170",
+    "module": "strategist-core/strategist170.ts",
+    "endpoint": "/strategist170"
+  },
+  {
+    "handler": "strategist171",
+    "module": "strategist-core/strategist171.ts",
+    "endpoint": "/strategist171"
+  },
+  {
+    "handler": "strategist172",
+    "module": "strategist-core/strategist172.ts",
+    "endpoint": "/strategist172"
+  },
+  {
+    "handler": "strategist173",
+    "module": "strategist-core/strategist173.ts",
+    "endpoint": "/strategist173"
+  },
+  {
+    "handler": "strategist174",
+    "module": "strategist-core/strategist174.ts",
+    "endpoint": "/strategist174"
+  },
+  {
+    "handler": "strategist175",
+    "module": "strategist-core/strategist175.ts",
+    "endpoint": "/strategist175"
+  },
+  {
+    "handler": "strategist176",
+    "module": "strategist-core/strategist176.ts",
+    "endpoint": "/strategist176"
+  },
+  {
+    "handler": "strategist177",
+    "module": "strategist-core/strategist177.ts",
+    "endpoint": "/strategist177"
+  },
+  {
+    "handler": "strategist178",
+    "module": "strategist-core/strategist178.ts",
+    "endpoint": "/strategist178"
+  },
+  {
+    "handler": "strategist179",
+    "module": "strategist-core/strategist179.ts",
+    "endpoint": "/strategist179"
+  },
+  {
+    "handler": "strategist18",
+    "module": "strategist-core/strategist18.ts",
+    "endpoint": "/strategist18"
+  },
+  {
+    "handler": "strategist180",
+    "module": "strategist-core/strategist180.ts",
+    "endpoint": "/strategist180"
+  },
+  {
+    "handler": "strategist181",
+    "module": "strategist-core/strategist181.ts",
+    "endpoint": "/strategist181"
+  },
+  {
+    "handler": "strategist182",
+    "module": "strategist-core/strategist182.ts",
+    "endpoint": "/strategist182"
+  },
+  {
+    "handler": "strategist183",
+    "module": "strategist-core/strategist183.ts",
+    "endpoint": "/strategist183"
+  },
+  {
+    "handler": "strategist184",
+    "module": "strategist-core/strategist184.ts",
+    "endpoint": "/strategist184"
+  },
+  {
+    "handler": "strategist185",
+    "module": "strategist-core/strategist185.ts",
+    "endpoint": "/strategist185"
+  },
+  {
+    "handler": "strategist186",
+    "module": "strategist-core/strategist186.ts",
+    "endpoint": "/strategist186"
+  },
+  {
+    "handler": "strategist187",
+    "module": "strategist-core/strategist187.ts",
+    "endpoint": "/strategist187"
+  },
+  {
+    "handler": "strategist188",
+    "module": "strategist-core/strategist188.ts",
+    "endpoint": "/strategist188"
+  },
+  {
+    "handler": "strategist189",
+    "module": "strategist-core/strategist189.ts",
+    "endpoint": "/strategist189"
+  },
+  {
+    "handler": "strategist19",
+    "module": "strategist-core/strategist19.ts",
+    "endpoint": "/strategist19"
+  },
+  {
+    "handler": "strategist190",
+    "module": "strategist-core/strategist190.ts",
+    "endpoint": "/strategist190"
+  },
+  {
+    "handler": "strategist191",
+    "module": "strategist-core/strategist191.ts",
+    "endpoint": "/strategist191"
+  },
+  {
+    "handler": "strategist192",
+    "module": "strategist-core/strategist192.ts",
+    "endpoint": "/strategist192"
+  },
+  {
+    "handler": "strategist193",
+    "module": "strategist-core/strategist193.ts",
+    "endpoint": "/strategist193"
+  },
+  {
+    "handler": "strategist194",
+    "module": "strategist-core/strategist194.ts",
+    "endpoint": "/strategist194"
+  },
+  {
+    "handler": "strategist195",
+    "module": "strategist-core/strategist195.ts",
+    "endpoint": "/strategist195"
+  },
+  {
+    "handler": "strategist196",
+    "module": "strategist-core/strategist196.ts",
+    "endpoint": "/strategist196"
+  },
+  {
+    "handler": "strategist197",
+    "module": "strategist-core/strategist197.ts",
+    "endpoint": "/strategist197"
+  },
+  {
+    "handler": "strategist198",
+    "module": "strategist-core/strategist198.ts",
+    "endpoint": "/strategist198"
+  },
+  {
+    "handler": "strategist199",
+    "module": "strategist-core/strategist199.ts",
+    "endpoint": "/strategist199"
+  },
+  {
+    "handler": "strategist2",
+    "module": "strategist-core/strategist2.ts",
+    "endpoint": "/strategist2"
+  },
+  {
+    "handler": "strategist20",
+    "module": "strategist-core/strategist20.ts",
+    "endpoint": "/strategist20"
+  },
+  {
+    "handler": "strategist200",
+    "module": "strategist-core/strategist200.ts",
+    "endpoint": "/strategist200"
+  },
+  {
+    "handler": "strategist201",
+    "module": "strategist-core/strategist201.ts",
+    "endpoint": "/strategist201"
+  },
+  {
+    "handler": "strategist202",
+    "module": "strategist-core/strategist202.ts",
+    "endpoint": "/strategist202"
+  },
+  {
+    "handler": "strategist203",
+    "module": "strategist-core/strategist203.ts",
+    "endpoint": "/strategist203"
+  },
+  {
+    "handler": "strategist204",
+    "module": "strategist-core/strategist204.ts",
+    "endpoint": "/strategist204"
+  },
+  {
+    "handler": "strategist205",
+    "module": "strategist-core/strategist205.ts",
+    "endpoint": "/strategist205"
+  },
+  {
+    "handler": "strategist206",
+    "module": "strategist-core/strategist206.ts",
+    "endpoint": "/strategist206"
+  },
+  {
+    "handler": "strategist207",
+    "module": "strategist-core/strategist207.ts",
+    "endpoint": "/strategist207"
+  },
+  {
+    "handler": "strategist208",
+    "module": "strategist-core/strategist208.ts",
+    "endpoint": "/strategist208"
+  },
+  {
+    "handler": "strategist209",
+    "module": "strategist-core/strategist209.ts",
+    "endpoint": "/strategist209"
+  },
+  {
+    "handler": "strategist21",
+    "module": "strategist-core/strategist21.ts",
+    "endpoint": "/strategist21"
+  },
+  {
+    "handler": "strategist210",
+    "module": "strategist-core/strategist210.ts",
+    "endpoint": "/strategist210"
+  },
+  {
+    "handler": "strategist211",
+    "module": "strategist-core/strategist211.ts",
+    "endpoint": "/strategist211"
+  },
+  {
+    "handler": "strategist212",
+    "module": "strategist-core/strategist212.ts",
+    "endpoint": "/strategist212"
+  },
+  {
+    "handler": "strategist213",
+    "module": "strategist-core/strategist213.ts",
+    "endpoint": "/strategist213"
+  },
+  {
+    "handler": "strategist214",
+    "module": "strategist-core/strategist214.ts",
+    "endpoint": "/strategist214"
+  },
+  {
+    "handler": "strategist215",
+    "module": "strategist-core/strategist215.ts",
+    "endpoint": "/strategist215"
+  },
+  {
+    "handler": "strategist216",
+    "module": "strategist-core/strategist216.ts",
+    "endpoint": "/strategist216"
+  },
+  {
+    "handler": "strategist217",
+    "module": "strategist-core/strategist217.ts",
+    "endpoint": "/strategist217"
+  },
+  {
+    "handler": "strategist218",
+    "module": "strategist-core/strategist218.ts",
+    "endpoint": "/strategist218"
+  },
+  {
+    "handler": "strategist219",
+    "module": "strategist-core/strategist219.ts",
+    "endpoint": "/strategist219"
+  },
+  {
+    "handler": "strategist22",
+    "module": "strategist-core/strategist22.ts",
+    "endpoint": "/strategist22"
+  },
+  {
+    "handler": "strategist220",
+    "module": "strategist-core/strategist220.ts",
+    "endpoint": "/strategist220"
+  },
+  {
+    "handler": "strategist221",
+    "module": "strategist-core/strategist221.ts",
+    "endpoint": "/strategist221"
+  },
+  {
+    "handler": "strategist222",
+    "module": "strategist-core/strategist222.ts",
+    "endpoint": "/strategist222"
+  },
+  {
+    "handler": "strategist223",
+    "module": "strategist-core/strategist223.ts",
+    "endpoint": "/strategist223"
+  },
+  {
+    "handler": "strategist224",
+    "module": "strategist-core/strategist224.ts",
+    "endpoint": "/strategist224"
+  },
+  {
+    "handler": "strategist225",
+    "module": "strategist-core/strategist225.ts",
+    "endpoint": "/strategist225"
+  },
+  {
+    "handler": "strategist226",
+    "module": "strategist-core/strategist226.ts",
+    "endpoint": "/strategist226"
+  },
+  {
+    "handler": "strategist227",
+    "module": "strategist-core/strategist227.ts",
+    "endpoint": "/strategist227"
+  },
+  {
+    "handler": "strategist228",
+    "module": "strategist-core/strategist228.ts",
+    "endpoint": "/strategist228"
+  },
+  {
+    "handler": "strategist229",
+    "module": "strategist-core/strategist229.ts",
+    "endpoint": "/strategist229"
+  },
+  {
+    "handler": "strategist23",
+    "module": "strategist-core/strategist23.ts",
+    "endpoint": "/strategist23"
+  },
+  {
+    "handler": "strategist230",
+    "module": "strategist-core/strategist230.ts",
+    "endpoint": "/strategist230"
+  },
+  {
+    "handler": "strategist231",
+    "module": "strategist-core/strategist231.ts",
+    "endpoint": "/strategist231"
+  },
+  {
+    "handler": "strategist232",
+    "module": "strategist-core/strategist232.ts",
+    "endpoint": "/strategist232"
+  },
+  {
+    "handler": "strategist233",
+    "module": "strategist-core/strategist233.ts",
+    "endpoint": "/strategist233"
+  },
+  {
+    "handler": "strategist234",
+    "module": "strategist-core/strategist234.ts",
+    "endpoint": "/strategist234"
+  },
+  {
+    "handler": "strategist235",
+    "module": "strategist-core/strategist235.ts",
+    "endpoint": "/strategist235"
+  },
+  {
+    "handler": "strategist236",
+    "module": "strategist-core/strategist236.ts",
+    "endpoint": "/strategist236"
+  },
+  {
+    "handler": "strategist237",
+    "module": "strategist-core/strategist237.ts",
+    "endpoint": "/strategist237"
+  },
+  {
+    "handler": "strategist238",
+    "module": "strategist-core/strategist238.ts",
+    "endpoint": "/strategist238"
+  },
+  {
+    "handler": "strategist239",
+    "module": "strategist-core/strategist239.ts",
+    "endpoint": "/strategist239"
+  },
+  {
+    "handler": "strategist24",
+    "module": "strategist-core/strategist24.ts",
+    "endpoint": "/strategist24"
+  },
+  {
+    "handler": "strategist240",
+    "module": "strategist-core/strategist240.ts",
+    "endpoint": "/strategist240"
+  },
+  {
+    "handler": "strategist241",
+    "module": "strategist-core/strategist241.ts",
+    "endpoint": "/strategist241"
+  },
+  {
+    "handler": "strategist242",
+    "module": "strategist-core/strategist242.ts",
+    "endpoint": "/strategist242"
+  },
+  {
+    "handler": "strategist243",
+    "module": "strategist-core/strategist243.ts",
+    "endpoint": "/strategist243"
+  },
+  {
+    "handler": "strategist244",
+    "module": "strategist-core/strategist244.ts",
+    "endpoint": "/strategist244"
+  },
+  {
+    "handler": "strategist245",
+    "module": "strategist-core/strategist245.ts",
+    "endpoint": "/strategist245"
+  },
+  {
+    "handler": "strategist246",
+    "module": "strategist-core/strategist246.ts",
+    "endpoint": "/strategist246"
+  },
+  {
+    "handler": "strategist247",
+    "module": "strategist-core/strategist247.ts",
+    "endpoint": "/strategist247"
+  },
+  {
+    "handler": "strategist248",
+    "module": "strategist-core/strategist248.ts",
+    "endpoint": "/strategist248"
+  },
+  {
+    "handler": "strategist249",
+    "module": "strategist-core/strategist249.ts",
+    "endpoint": "/strategist249"
+  },
+  {
+    "handler": "strategist25",
+    "module": "strategist-core/strategist25.ts",
+    "endpoint": "/strategist25"
+  },
+  {
+    "handler": "strategist250",
+    "module": "strategist-core/strategist250.ts",
+    "endpoint": "/strategist250"
+  },
+  {
+    "handler": "strategist251",
+    "module": "strategist-core/strategist251.ts",
+    "endpoint": "/strategist251"
+  },
+  {
+    "handler": "strategist252",
+    "module": "strategist-core/strategist252.ts",
+    "endpoint": "/strategist252"
+  },
+  {
+    "handler": "strategist253",
+    "module": "strategist-core/strategist253.ts",
+    "endpoint": "/strategist253"
+  },
+  {
+    "handler": "strategist254",
+    "module": "strategist-core/strategist254.ts",
+    "endpoint": "/strategist254"
+  },
+  {
+    "handler": "strategist255",
+    "module": "strategist-core/strategist255.ts",
+    "endpoint": "/strategist255"
+  },
+  {
+    "handler": "strategist256",
+    "module": "strategist-core/strategist256.ts",
+    "endpoint": "/strategist256"
+  },
+  {
+    "handler": "strategist257",
+    "module": "strategist-core/strategist257.ts",
+    "endpoint": "/strategist257"
+  },
+  {
+    "handler": "strategist258",
+    "module": "strategist-core/strategist258.ts",
+    "endpoint": "/strategist258"
+  },
+  {
+    "handler": "strategist259",
+    "module": "strategist-core/strategist259.ts",
+    "endpoint": "/strategist259"
+  },
+  {
+    "handler": "strategist26",
+    "module": "strategist-core/strategist26.ts",
+    "endpoint": "/strategist26"
+  },
+  {
+    "handler": "strategist260",
+    "module": "strategist-core/strategist260.ts",
+    "endpoint": "/strategist260"
+  },
+  {
+    "handler": "strategist261",
+    "module": "strategist-core/strategist261.ts",
+    "endpoint": "/strategist261"
+  },
+  {
+    "handler": "strategist262",
+    "module": "strategist-core/strategist262.ts",
+    "endpoint": "/strategist262"
+  },
+  {
+    "handler": "strategist263",
+    "module": "strategist-core/strategist263.ts",
+    "endpoint": "/strategist263"
+  },
+  {
+    "handler": "strategist264",
+    "module": "strategist-core/strategist264.ts",
+    "endpoint": "/strategist264"
+  },
+  {
+    "handler": "strategist265",
+    "module": "strategist-core/strategist265.ts",
+    "endpoint": "/strategist265"
+  },
+  {
+    "handler": "strategist266",
+    "module": "strategist-core/strategist266.ts",
+    "endpoint": "/strategist266"
+  },
+  {
+    "handler": "strategist267",
+    "module": "strategist-core/strategist267.ts",
+    "endpoint": "/strategist267"
+  },
+  {
+    "handler": "strategist268",
+    "module": "strategist-core/strategist268.ts",
+    "endpoint": "/strategist268"
+  },
+  {
+    "handler": "strategist269",
+    "module": "strategist-core/strategist269.ts",
+    "endpoint": "/strategist269"
+  },
+  {
+    "handler": "strategist27",
+    "module": "strategist-core/strategist27.ts",
+    "endpoint": "/strategist27"
+  },
+  {
+    "handler": "strategist270",
+    "module": "strategist-core/strategist270.ts",
+    "endpoint": "/strategist270"
+  },
+  {
+    "handler": "strategist271",
+    "module": "strategist-core/strategist271.ts",
+    "endpoint": "/strategist271"
+  },
+  {
+    "handler": "strategist272",
+    "module": "strategist-core/strategist272.ts",
+    "endpoint": "/strategist272"
+  },
+  {
+    "handler": "strategist273",
+    "module": "strategist-core/strategist273.ts",
+    "endpoint": "/strategist273"
+  },
+  {
+    "handler": "strategist274",
+    "module": "strategist-core/strategist274.ts",
+    "endpoint": "/strategist274"
+  },
+  {
+    "handler": "strategist275",
+    "module": "strategist-core/strategist275.ts",
+    "endpoint": "/strategist275"
+  },
+  {
+    "handler": "strategist276",
+    "module": "strategist-core/strategist276.ts",
+    "endpoint": "/strategist276"
+  },
+  {
+    "handler": "strategist277",
+    "module": "strategist-core/strategist277.ts",
+    "endpoint": "/strategist277"
+  },
+  {
+    "handler": "strategist278",
+    "module": "strategist-core/strategist278.ts",
+    "endpoint": "/strategist278"
+  },
+  {
+    "handler": "strategist279",
+    "module": "strategist-core/strategist279.ts",
+    "endpoint": "/strategist279"
+  },
+  {
+    "handler": "strategist28",
+    "module": "strategist-core/strategist28.ts",
+    "endpoint": "/strategist28"
+  },
+  {
+    "handler": "strategist280",
+    "module": "strategist-core/strategist280.ts",
+    "endpoint": "/strategist280"
+  },
+  {
+    "handler": "strategist281",
+    "module": "strategist-core/strategist281.ts",
+    "endpoint": "/strategist281"
+  },
+  {
+    "handler": "strategist282",
+    "module": "strategist-core/strategist282.ts",
+    "endpoint": "/strategist282"
+  },
+  {
+    "handler": "strategist283",
+    "module": "strategist-core/strategist283.ts",
+    "endpoint": "/strategist283"
+  },
+  {
+    "handler": "strategist284",
+    "module": "strategist-core/strategist284.ts",
+    "endpoint": "/strategist284"
+  },
+  {
+    "handler": "strategist285",
+    "module": "strategist-core/strategist285.ts",
+    "endpoint": "/strategist285"
+  },
+  {
+    "handler": "strategist286",
+    "module": "strategist-core/strategist286.ts",
+    "endpoint": "/strategist286"
+  },
+  {
+    "handler": "strategist287",
+    "module": "strategist-core/strategist287.ts",
+    "endpoint": "/strategist287"
+  },
+  {
+    "handler": "strategist288",
+    "module": "strategist-core/strategist288.ts",
+    "endpoint": "/strategist288"
+  },
+  {
+    "handler": "strategist289",
+    "module": "strategist-core/strategist289.ts",
+    "endpoint": "/strategist289"
+  },
+  {
+    "handler": "strategist29",
+    "module": "strategist-core/strategist29.ts",
+    "endpoint": "/strategist29"
+  },
+  {
+    "handler": "strategist290",
+    "module": "strategist-core/strategist290.ts",
+    "endpoint": "/strategist290"
+  },
+  {
+    "handler": "strategist291",
+    "module": "strategist-core/strategist291.ts",
+    "endpoint": "/strategist291"
+  },
+  {
+    "handler": "strategist292",
+    "module": "strategist-core/strategist292.ts",
+    "endpoint": "/strategist292"
+  },
+  {
+    "handler": "strategist293",
+    "module": "strategist-core/strategist293.ts",
+    "endpoint": "/strategist293"
+  },
+  {
+    "handler": "strategist294",
+    "module": "strategist-core/strategist294.ts",
+    "endpoint": "/strategist294"
+  },
+  {
+    "handler": "strategist295",
+    "module": "strategist-core/strategist295.ts",
+    "endpoint": "/strategist295"
+  },
+  {
+    "handler": "strategist296",
+    "module": "strategist-core/strategist296.ts",
+    "endpoint": "/strategist296"
+  },
+  {
+    "handler": "strategist297",
+    "module": "strategist-core/strategist297.ts",
+    "endpoint": "/strategist297"
+  },
+  {
+    "handler": "strategist298",
+    "module": "strategist-core/strategist298.ts",
+    "endpoint": "/strategist298"
+  },
+  {
+    "handler": "strategist299",
+    "module": "strategist-core/strategist299.ts",
+    "endpoint": "/strategist299"
+  },
+  {
+    "handler": "strategist3",
+    "module": "strategist-core/strategist3.ts",
+    "endpoint": "/strategist3"
+  },
+  {
+    "handler": "strategist30",
+    "module": "strategist-core/strategist30.ts",
+    "endpoint": "/strategist30"
+  },
+  {
+    "handler": "strategist300",
+    "module": "strategist-core/strategist300.ts",
+    "endpoint": "/strategist300"
+  },
+  {
+    "handler": "strategist301",
+    "module": "strategist-core/strategist301.ts",
+    "endpoint": "/strategist301"
+  },
+  {
+    "handler": "strategist302",
+    "module": "strategist-core/strategist302.ts",
+    "endpoint": "/strategist302"
+  },
+  {
+    "handler": "strategist303",
+    "module": "strategist-core/strategist303.ts",
+    "endpoint": "/strategist303"
+  },
+  {
+    "handler": "strategist304",
+    "module": "strategist-core/strategist304.ts",
+    "endpoint": "/strategist304"
+  },
+  {
+    "handler": "strategist305",
+    "module": "strategist-core/strategist305.ts",
+    "endpoint": "/strategist305"
+  },
+  {
+    "handler": "strategist306",
+    "module": "strategist-core/strategist306.ts",
+    "endpoint": "/strategist306"
+  },
+  {
+    "handler": "strategist307",
+    "module": "strategist-core/strategist307.ts",
+    "endpoint": "/strategist307"
+  },
+  {
+    "handler": "strategist308",
+    "module": "strategist-core/strategist308.ts",
+    "endpoint": "/strategist308"
+  },
+  {
+    "handler": "strategist309",
+    "module": "strategist-core/strategist309.ts",
+    "endpoint": "/strategist309"
+  },
+  {
+    "handler": "strategist31",
+    "module": "strategist-core/strategist31.ts",
+    "endpoint": "/strategist31"
+  },
+  {
+    "handler": "strategist310",
+    "module": "strategist-core/strategist310.ts",
+    "endpoint": "/strategist310"
+  },
+  {
+    "handler": "strategist311",
+    "module": "strategist-core/strategist311.ts",
+    "endpoint": "/strategist311"
+  },
+  {
+    "handler": "strategist312",
+    "module": "strategist-core/strategist312.ts",
+    "endpoint": "/strategist312"
+  },
+  {
+    "handler": "strategist313",
+    "module": "strategist-core/strategist313.ts",
+    "endpoint": "/strategist313"
+  },
+  {
+    "handler": "strategist314",
+    "module": "strategist-core/strategist314.ts",
+    "endpoint": "/strategist314"
+  },
+  {
+    "handler": "strategist315",
+    "module": "strategist-core/strategist315.ts",
+    "endpoint": "/strategist315"
+  },
+  {
+    "handler": "strategist316",
+    "module": "strategist-core/strategist316.ts",
+    "endpoint": "/strategist316"
+  },
+  {
+    "handler": "strategist317",
+    "module": "strategist-core/strategist317.ts",
+    "endpoint": "/strategist317"
+  },
+  {
+    "handler": "strategist318",
+    "module": "strategist-core/strategist318.ts",
+    "endpoint": "/strategist318"
+  },
+  {
+    "handler": "strategist319",
+    "module": "strategist-core/strategist319.ts",
+    "endpoint": "/strategist319"
+  },
+  {
+    "handler": "strategist32",
+    "module": "strategist-core/strategist32.ts",
+    "endpoint": "/strategist32"
+  },
+  {
+    "handler": "strategist320",
+    "module": "strategist-core/strategist320.ts",
+    "endpoint": "/strategist320"
+  },
+  {
+    "handler": "strategist321",
+    "module": "strategist-core/strategist321.ts",
+    "endpoint": "/strategist321"
+  },
+  {
+    "handler": "strategist322",
+    "module": "strategist-core/strategist322.ts",
+    "endpoint": "/strategist322"
+  },
+  {
+    "handler": "strategist323",
+    "module": "strategist-core/strategist323.ts",
+    "endpoint": "/strategist323"
+  },
+  {
+    "handler": "strategist324",
+    "module": "strategist-core/strategist324.ts",
+    "endpoint": "/strategist324"
+  },
+  {
+    "handler": "strategist325",
+    "module": "strategist-core/strategist325.ts",
+    "endpoint": "/strategist325"
+  },
+  {
+    "handler": "strategist326",
+    "module": "strategist-core/strategist326.ts",
+    "endpoint": "/strategist326"
+  },
+  {
+    "handler": "strategist327",
+    "module": "strategist-core/strategist327.ts",
+    "endpoint": "/strategist327"
+  },
+  {
+    "handler": "strategist328",
+    "module": "strategist-core/strategist328.ts",
+    "endpoint": "/strategist328"
+  },
+  {
+    "handler": "strategist329",
+    "module": "strategist-core/strategist329.ts",
+    "endpoint": "/strategist329"
+  },
+  {
+    "handler": "strategist33",
+    "module": "strategist-core/strategist33.ts",
+    "endpoint": "/strategist33"
+  },
+  {
+    "handler": "strategist330",
+    "module": "strategist-core/strategist330.ts",
+    "endpoint": "/strategist330"
+  },
+  {
+    "handler": "strategist331",
+    "module": "strategist-core/strategist331.ts",
+    "endpoint": "/strategist331"
+  },
+  {
+    "handler": "strategist332",
+    "module": "strategist-core/strategist332.ts",
+    "endpoint": "/strategist332"
+  },
+  {
+    "handler": "strategist333",
+    "module": "strategist-core/strategist333.ts",
+    "endpoint": "/strategist333"
+  },
+  {
+    "handler": "strategist334",
+    "module": "strategist-core/strategist334.ts",
+    "endpoint": "/strategist334"
+  },
+  {
+    "handler": "strategist335",
+    "module": "strategist-core/strategist335.ts",
+    "endpoint": "/strategist335"
+  },
+  {
+    "handler": "strategist336",
+    "module": "strategist-core/strategist336.ts",
+    "endpoint": "/strategist336"
+  },
+  {
+    "handler": "strategist337",
+    "module": "strategist-core/strategist337.ts",
+    "endpoint": "/strategist337"
+  },
+  {
+    "handler": "strategist338",
+    "module": "strategist-core/strategist338.ts",
+    "endpoint": "/strategist338"
+  },
+  {
+    "handler": "strategist339",
+    "module": "strategist-core/strategist339.ts",
+    "endpoint": "/strategist339"
+  },
+  {
+    "handler": "strategist34",
+    "module": "strategist-core/strategist34.ts",
+    "endpoint": "/strategist34"
+  },
+  {
+    "handler": "strategist340",
+    "module": "strategist-core/strategist340.ts",
+    "endpoint": "/strategist340"
+  },
+  {
+    "handler": "strategist341",
+    "module": "strategist-core/strategist341.ts",
+    "endpoint": "/strategist341"
+  },
+  {
+    "handler": "strategist342",
+    "module": "strategist-core/strategist342.ts",
+    "endpoint": "/strategist342"
+  },
+  {
+    "handler": "strategist343",
+    "module": "strategist-core/strategist343.ts",
+    "endpoint": "/strategist343"
+  },
+  {
+    "handler": "strategist344",
+    "module": "strategist-core/strategist344.ts",
+    "endpoint": "/strategist344"
+  },
+  {
+    "handler": "strategist345",
+    "module": "strategist-core/strategist345.ts",
+    "endpoint": "/strategist345"
+  },
+  {
+    "handler": "strategist346",
+    "module": "strategist-core/strategist346.ts",
+    "endpoint": "/strategist346"
+  },
+  {
+    "handler": "strategist347",
+    "module": "strategist-core/strategist347.ts",
+    "endpoint": "/strategist347"
+  },
+  {
+    "handler": "strategist348",
+    "module": "strategist-core/strategist348.ts",
+    "endpoint": "/strategist348"
+  },
+  {
+    "handler": "strategist349",
+    "module": "strategist-core/strategist349.ts",
+    "endpoint": "/strategist349"
+  },
+  {
+    "handler": "strategist35",
+    "module": "strategist-core/strategist35.ts",
+    "endpoint": "/strategist35"
+  },
+  {
+    "handler": "strategist350",
+    "module": "strategist-core/strategist350.ts",
+    "endpoint": "/strategist350"
+  },
+  {
+    "handler": "strategist351",
+    "module": "strategist-core/strategist351.ts",
+    "endpoint": "/strategist351"
+  },
+  {
+    "handler": "strategist352",
+    "module": "strategist-core/strategist352.ts",
+    "endpoint": "/strategist352"
+  },
+  {
+    "handler": "strategist353",
+    "module": "strategist-core/strategist353.ts",
+    "endpoint": "/strategist353"
+  },
+  {
+    "handler": "strategist354",
+    "module": "strategist-core/strategist354.ts",
+    "endpoint": "/strategist354"
+  },
+  {
+    "handler": "strategist355",
+    "module": "strategist-core/strategist355.ts",
+    "endpoint": "/strategist355"
+  },
+  {
+    "handler": "strategist356",
+    "module": "strategist-core/strategist356.ts",
+    "endpoint": "/strategist356"
+  },
+  {
+    "handler": "strategist357",
+    "module": "strategist-core/strategist357.ts",
+    "endpoint": "/strategist357"
+  },
+  {
+    "handler": "strategist358",
+    "module": "strategist-core/strategist358.ts",
+    "endpoint": "/strategist358"
+  },
+  {
+    "handler": "strategist359",
+    "module": "strategist-core/strategist359.ts",
+    "endpoint": "/strategist359"
+  },
+  {
+    "handler": "strategist36",
+    "module": "strategist-core/strategist36.ts",
+    "endpoint": "/strategist36"
+  },
+  {
+    "handler": "strategist360",
+    "module": "strategist-core/strategist360.ts",
+    "endpoint": "/strategist360"
+  },
+  {
+    "handler": "strategist361",
+    "module": "strategist-core/strategist361.ts",
+    "endpoint": "/strategist361"
+  },
+  {
+    "handler": "strategist362",
+    "module": "strategist-core/strategist362.ts",
+    "endpoint": "/strategist362"
+  },
+  {
+    "handler": "strategist363",
+    "module": "strategist-core/strategist363.ts",
+    "endpoint": "/strategist363"
+  },
+  {
+    "handler": "strategist364",
+    "module": "strategist-core/strategist364.ts",
+    "endpoint": "/strategist364"
+  },
+  {
+    "handler": "strategist365",
+    "module": "strategist-core/strategist365.ts",
+    "endpoint": "/strategist365"
+  },
+  {
+    "handler": "strategist366",
+    "module": "strategist-core/strategist366.ts",
+    "endpoint": "/strategist366"
+  },
+  {
+    "handler": "strategist367",
+    "module": "strategist-core/strategist367.ts",
+    "endpoint": "/strategist367"
+  },
+  {
+    "handler": "strategist368",
+    "module": "strategist-core/strategist368.ts",
+    "endpoint": "/strategist368"
+  },
+  {
+    "handler": "strategist369",
+    "module": "strategist-core/strategist369.ts",
+    "endpoint": "/strategist369"
+  },
+  {
+    "handler": "strategist37",
+    "module": "strategist-core/strategist37.ts",
+    "endpoint": "/strategist37"
+  },
+  {
+    "handler": "strategist370",
+    "module": "strategist-core/strategist370.ts",
+    "endpoint": "/strategist370"
+  },
+  {
+    "handler": "strategist371",
+    "module": "strategist-core/strategist371.ts",
+    "endpoint": "/strategist371"
+  },
+  {
+    "handler": "strategist372",
+    "module": "strategist-core/strategist372.ts",
+    "endpoint": "/strategist372"
+  },
+  {
+    "handler": "strategist373",
+    "module": "strategist-core/strategist373.ts",
+    "endpoint": "/strategist373"
+  },
+  {
+    "handler": "strategist374",
+    "module": "strategist-core/strategist374.ts",
+    "endpoint": "/strategist374"
+  },
+  {
+    "handler": "strategist375",
+    "module": "strategist-core/strategist375.ts",
+    "endpoint": "/strategist375"
+  },
+  {
+    "handler": "strategist376",
+    "module": "strategist-core/strategist376.ts",
+    "endpoint": "/strategist376"
+  },
+  {
+    "handler": "strategist377",
+    "module": "strategist-core/strategist377.ts",
+    "endpoint": "/strategist377"
+  },
+  {
+    "handler": "strategist378",
+    "module": "strategist-core/strategist378.ts",
+    "endpoint": "/strategist378"
+  },
+  {
+    "handler": "strategist379",
+    "module": "strategist-core/strategist379.ts",
+    "endpoint": "/strategist379"
+  },
+  {
+    "handler": "strategist38",
+    "module": "strategist-core/strategist38.ts",
+    "endpoint": "/strategist38"
+  },
+  {
+    "handler": "strategist380",
+    "module": "strategist-core/strategist380.ts",
+    "endpoint": "/strategist380"
+  },
+  {
+    "handler": "strategist381",
+    "module": "strategist-core/strategist381.ts",
+    "endpoint": "/strategist381"
+  },
+  {
+    "handler": "strategist382",
+    "module": "strategist-core/strategist382.ts",
+    "endpoint": "/strategist382"
+  },
+  {
+    "handler": "strategist383",
+    "module": "strategist-core/strategist383.ts",
+    "endpoint": "/strategist383"
+  },
+  {
+    "handler": "strategist384",
+    "module": "strategist-core/strategist384.ts",
+    "endpoint": "/strategist384"
+  },
+  {
+    "handler": "strategist385",
+    "module": "strategist-core/strategist385.ts",
+    "endpoint": "/strategist385"
+  },
+  {
+    "handler": "strategist386",
+    "module": "strategist-core/strategist386.ts",
+    "endpoint": "/strategist386"
+  },
+  {
+    "handler": "strategist387",
+    "module": "strategist-core/strategist387.ts",
+    "endpoint": "/strategist387"
+  },
+  {
+    "handler": "strategist388",
+    "module": "strategist-core/strategist388.ts",
+    "endpoint": "/strategist388"
+  },
+  {
+    "handler": "strategist389",
+    "module": "strategist-core/strategist389.ts",
+    "endpoint": "/strategist389"
+  },
+  {
+    "handler": "strategist39",
+    "module": "strategist-core/strategist39.ts",
+    "endpoint": "/strategist39"
+  },
+  {
+    "handler": "strategist390",
+    "module": "strategist-core/strategist390.ts",
+    "endpoint": "/strategist390"
+  },
+  {
+    "handler": "strategist391",
+    "module": "strategist-core/strategist391.ts",
+    "endpoint": "/strategist391"
+  },
+  {
+    "handler": "strategist392",
+    "module": "strategist-core/strategist392.ts",
+    "endpoint": "/strategist392"
+  },
+  {
+    "handler": "strategist393",
+    "module": "strategist-core/strategist393.ts",
+    "endpoint": "/strategist393"
+  },
+  {
+    "handler": "strategist394",
+    "module": "strategist-core/strategist394.ts",
+    "endpoint": "/strategist394"
+  },
+  {
+    "handler": "strategist395",
+    "module": "strategist-core/strategist395.ts",
+    "endpoint": "/strategist395"
+  },
+  {
+    "handler": "strategist396",
+    "module": "strategist-core/strategist396.ts",
+    "endpoint": "/strategist396"
+  },
+  {
+    "handler": "strategist397",
+    "module": "strategist-core/strategist397.ts",
+    "endpoint": "/strategist397"
+  },
+  {
+    "handler": "strategist398",
+    "module": "strategist-core/strategist398.ts",
+    "endpoint": "/strategist398"
+  },
+  {
+    "handler": "strategist399",
+    "module": "strategist-core/strategist399.ts",
+    "endpoint": "/strategist399"
+  },
+  {
+    "handler": "strategist4",
+    "module": "strategist-core/strategist4.ts",
+    "endpoint": "/strategist4"
+  },
+  {
+    "handler": "strategist40",
+    "module": "strategist-core/strategist40.ts",
+    "endpoint": "/strategist40"
+  },
+  {
+    "handler": "strategist400",
+    "module": "strategist-core/strategist400.ts",
+    "endpoint": "/strategist400"
+  },
+  {
+    "handler": "strategist401",
+    "module": "strategist-core/strategist401.ts",
+    "endpoint": "/strategist401"
+  },
+  {
+    "handler": "strategist402",
+    "module": "strategist-core/strategist402.ts",
+    "endpoint": "/strategist402"
+  },
+  {
+    "handler": "strategist403",
+    "module": "strategist-core/strategist403.ts",
+    "endpoint": "/strategist403"
+  },
+  {
+    "handler": "strategist404",
+    "module": "strategist-core/strategist404.ts",
+    "endpoint": "/strategist404"
+  },
+  {
+    "handler": "strategist405",
+    "module": "strategist-core/strategist405.ts",
+    "endpoint": "/strategist405"
+  },
+  {
+    "handler": "strategist406",
+    "module": "strategist-core/strategist406.ts",
+    "endpoint": "/strategist406"
+  },
+  {
+    "handler": "strategist407",
+    "module": "strategist-core/strategist407.ts",
+    "endpoint": "/strategist407"
+  },
+  {
+    "handler": "strategist408",
+    "module": "strategist-core/strategist408.ts",
+    "endpoint": "/strategist408"
+  },
+  {
+    "handler": "strategist409",
+    "module": "strategist-core/strategist409.ts",
+    "endpoint": "/strategist409"
+  },
+  {
+    "handler": "strategist41",
+    "module": "strategist-core/strategist41.ts",
+    "endpoint": "/strategist41"
+  },
+  {
+    "handler": "strategist410",
+    "module": "strategist-core/strategist410.ts",
+    "endpoint": "/strategist410"
+  },
+  {
+    "handler": "strategist411",
+    "module": "strategist-core/strategist411.ts",
+    "endpoint": "/strategist411"
+  },
+  {
+    "handler": "strategist412",
+    "module": "strategist-core/strategist412.ts",
+    "endpoint": "/strategist412"
+  },
+  {
+    "handler": "strategist413",
+    "module": "strategist-core/strategist413.ts",
+    "endpoint": "/strategist413"
+  },
+  {
+    "handler": "strategist414",
+    "module": "strategist-core/strategist414.ts",
+    "endpoint": "/strategist414"
+  },
+  {
+    "handler": "strategist415",
+    "module": "strategist-core/strategist415.ts",
+    "endpoint": "/strategist415"
+  },
+  {
+    "handler": "strategist416",
+    "module": "strategist-core/strategist416.ts",
+    "endpoint": "/strategist416"
+  },
+  {
+    "handler": "strategist417",
+    "module": "strategist-core/strategist417.ts",
+    "endpoint": "/strategist417"
+  },
+  {
+    "handler": "strategist418",
+    "module": "strategist-core/strategist418.ts",
+    "endpoint": "/strategist418"
+  },
+  {
+    "handler": "strategist419",
+    "module": "strategist-core/strategist419.ts",
+    "endpoint": "/strategist419"
+  },
+  {
+    "handler": "strategist42",
+    "module": "strategist-core/strategist42.ts",
+    "endpoint": "/strategist42"
+  },
+  {
+    "handler": "strategist420",
+    "module": "strategist-core/strategist420.ts",
+    "endpoint": "/strategist420"
+  },
+  {
+    "handler": "strategist421",
+    "module": "strategist-core/strategist421.ts",
+    "endpoint": "/strategist421"
+  },
+  {
+    "handler": "strategist422",
+    "module": "strategist-core/strategist422.ts",
+    "endpoint": "/strategist422"
+  },
+  {
+    "handler": "strategist423",
+    "module": "strategist-core/strategist423.ts",
+    "endpoint": "/strategist423"
+  },
+  {
+    "handler": "strategist424",
+    "module": "strategist-core/strategist424.ts",
+    "endpoint": "/strategist424"
+  },
+  {
+    "handler": "strategist425",
+    "module": "strategist-core/strategist425.ts",
+    "endpoint": "/strategist425"
+  },
+  {
+    "handler": "strategist426",
+    "module": "strategist-core/strategist426.ts",
+    "endpoint": "/strategist426"
+  },
+  {
+    "handler": "strategist427",
+    "module": "strategist-core/strategist427.ts",
+    "endpoint": "/strategist427"
+  },
+  {
+    "handler": "strategist428",
+    "module": "strategist-core/strategist428.ts",
+    "endpoint": "/strategist428"
+  },
+  {
+    "handler": "strategist429",
+    "module": "strategist-core/strategist429.ts",
+    "endpoint": "/strategist429"
+  },
+  {
+    "handler": "strategist43",
+    "module": "strategist-core/strategist43.ts",
+    "endpoint": "/strategist43"
+  },
+  {
+    "handler": "strategist430",
+    "module": "strategist-core/strategist430.ts",
+    "endpoint": "/strategist430"
+  },
+  {
+    "handler": "strategist431",
+    "module": "strategist-core/strategist431.ts",
+    "endpoint": "/strategist431"
+  },
+  {
+    "handler": "strategist432",
+    "module": "strategist-core/strategist432.ts",
+    "endpoint": "/strategist432"
+  },
+  {
+    "handler": "strategist433",
+    "module": "strategist-core/strategist433.ts",
+    "endpoint": "/strategist433"
+  },
+  {
+    "handler": "strategist434",
+    "module": "strategist-core/strategist434.ts",
+    "endpoint": "/strategist434"
+  },
+  {
+    "handler": "strategist435",
+    "module": "strategist-core/strategist435.ts",
+    "endpoint": "/strategist435"
+  },
+  {
+    "handler": "strategist436",
+    "module": "strategist-core/strategist436.ts",
+    "endpoint": "/strategist436"
+  },
+  {
+    "handler": "strategist437",
+    "module": "strategist-core/strategist437.ts",
+    "endpoint": "/strategist437"
+  },
+  {
+    "handler": "strategist438",
+    "module": "strategist-core/strategist438.ts",
+    "endpoint": "/strategist438"
+  },
+  {
+    "handler": "strategist439",
+    "module": "strategist-core/strategist439.ts",
+    "endpoint": "/strategist439"
+  },
+  {
+    "handler": "strategist44",
+    "module": "strategist-core/strategist44.ts",
+    "endpoint": "/strategist44"
+  },
+  {
+    "handler": "strategist440",
+    "module": "strategist-core/strategist440.ts",
+    "endpoint": "/strategist440"
+  },
+  {
+    "handler": "strategist441",
+    "module": "strategist-core/strategist441.ts",
+    "endpoint": "/strategist441"
+  },
+  {
+    "handler": "strategist442",
+    "module": "strategist-core/strategist442.ts",
+    "endpoint": "/strategist442"
+  },
+  {
+    "handler": "strategist443",
+    "module": "strategist-core/strategist443.ts",
+    "endpoint": "/strategist443"
+  },
+  {
+    "handler": "strategist444",
+    "module": "strategist-core/strategist444.ts",
+    "endpoint": "/strategist444"
+  },
+  {
+    "handler": "strategist445",
+    "module": "strategist-core/strategist445.ts",
+    "endpoint": "/strategist445"
+  },
+  {
+    "handler": "strategist446",
+    "module": "strategist-core/strategist446.ts",
+    "endpoint": "/strategist446"
+  },
+  {
+    "handler": "strategist447",
+    "module": "strategist-core/strategist447.ts",
+    "endpoint": "/strategist447"
+  },
+  {
+    "handler": "strategist448",
+    "module": "strategist-core/strategist448.ts",
+    "endpoint": "/strategist448"
+  },
+  {
+    "handler": "strategist449",
+    "module": "strategist-core/strategist449.ts",
+    "endpoint": "/strategist449"
+  },
+  {
+    "handler": "strategist45",
+    "module": "strategist-core/strategist45.ts",
+    "endpoint": "/strategist45"
+  },
+  {
+    "handler": "strategist450",
+    "module": "strategist-core/strategist450.ts",
+    "endpoint": "/strategist450"
+  },
+  {
+    "handler": "strategist451",
+    "module": "strategist-core/strategist451.ts",
+    "endpoint": "/strategist451"
+  },
+  {
+    "handler": "strategist452",
+    "module": "strategist-core/strategist452.ts",
+    "endpoint": "/strategist452"
+  },
+  {
+    "handler": "strategist453",
+    "module": "strategist-core/strategist453.ts",
+    "endpoint": "/strategist453"
+  },
+  {
+    "handler": "strategist454",
+    "module": "strategist-core/strategist454.ts",
+    "endpoint": "/strategist454"
+  },
+  {
+    "handler": "strategist455",
+    "module": "strategist-core/strategist455.ts",
+    "endpoint": "/strategist455"
+  },
+  {
+    "handler": "strategist456",
+    "module": "strategist-core/strategist456.ts",
+    "endpoint": "/strategist456"
+  },
+  {
+    "handler": "strategist457",
+    "module": "strategist-core/strategist457.ts",
+    "endpoint": "/strategist457"
+  },
+  {
+    "handler": "strategist458",
+    "module": "strategist-core/strategist458.ts",
+    "endpoint": "/strategist458"
+  },
+  {
+    "handler": "strategist459",
+    "module": "strategist-core/strategist459.ts",
+    "endpoint": "/strategist459"
+  },
+  {
+    "handler": "strategist46",
+    "module": "strategist-core/strategist46.ts",
+    "endpoint": "/strategist46"
+  },
+  {
+    "handler": "strategist460",
+    "module": "strategist-core/strategist460.ts",
+    "endpoint": "/strategist460"
+  },
+  {
+    "handler": "strategist461",
+    "module": "strategist-core/strategist461.ts",
+    "endpoint": "/strategist461"
+  },
+  {
+    "handler": "strategist462",
+    "module": "strategist-core/strategist462.ts",
+    "endpoint": "/strategist462"
+  },
+  {
+    "handler": "strategist463",
+    "module": "strategist-core/strategist463.ts",
+    "endpoint": "/strategist463"
+  },
+  {
+    "handler": "strategist464",
+    "module": "strategist-core/strategist464.ts",
+    "endpoint": "/strategist464"
+  },
+  {
+    "handler": "strategist465",
+    "module": "strategist-core/strategist465.ts",
+    "endpoint": "/strategist465"
+  },
+  {
+    "handler": "strategist466",
+    "module": "strategist-core/strategist466.ts",
+    "endpoint": "/strategist466"
+  },
+  {
+    "handler": "strategist467",
+    "module": "strategist-core/strategist467.ts",
+    "endpoint": "/strategist467"
+  },
+  {
+    "handler": "strategist468",
+    "module": "strategist-core/strategist468.ts",
+    "endpoint": "/strategist468"
+  },
+  {
+    "handler": "strategist469",
+    "module": "strategist-core/strategist469.ts",
+    "endpoint": "/strategist469"
+  },
+  {
+    "handler": "strategist47",
+    "module": "strategist-core/strategist47.ts",
+    "endpoint": "/strategist47"
+  },
+  {
+    "handler": "strategist470",
+    "module": "strategist-core/strategist470.ts",
+    "endpoint": "/strategist470"
+  },
+  {
+    "handler": "strategist471",
+    "module": "strategist-core/strategist471.ts",
+    "endpoint": "/strategist471"
+  },
+  {
+    "handler": "strategist472",
+    "module": "strategist-core/strategist472.ts",
+    "endpoint": "/strategist472"
+  },
+  {
+    "handler": "strategist473",
+    "module": "strategist-core/strategist473.ts",
+    "endpoint": "/strategist473"
+  },
+  {
+    "handler": "strategist474",
+    "module": "strategist-core/strategist474.ts",
+    "endpoint": "/strategist474"
+  },
+  {
+    "handler": "strategist475",
+    "module": "strategist-core/strategist475.ts",
+    "endpoint": "/strategist475"
+  },
+  {
+    "handler": "strategist476",
+    "module": "strategist-core/strategist476.ts",
+    "endpoint": "/strategist476"
+  },
+  {
+    "handler": "strategist477",
+    "module": "strategist-core/strategist477.ts",
+    "endpoint": "/strategist477"
+  },
+  {
+    "handler": "strategist478",
+    "module": "strategist-core/strategist478.ts",
+    "endpoint": "/strategist478"
+  },
+  {
+    "handler": "strategist479",
+    "module": "strategist-core/strategist479.ts",
+    "endpoint": "/strategist479"
+  },
+  {
+    "handler": "strategist48",
+    "module": "strategist-core/strategist48.ts",
+    "endpoint": "/strategist48"
+  },
+  {
+    "handler": "strategist480",
+    "module": "strategist-core/strategist480.ts",
+    "endpoint": "/strategist480"
+  },
+  {
+    "handler": "strategist481",
+    "module": "strategist-core/strategist481.ts",
+    "endpoint": "/strategist481"
+  },
+  {
+    "handler": "strategist482",
+    "module": "strategist-core/strategist482.ts",
+    "endpoint": "/strategist482"
+  },
+  {
+    "handler": "strategist483",
+    "module": "strategist-core/strategist483.ts",
+    "endpoint": "/strategist483"
+  },
+  {
+    "handler": "strategist484",
+    "module": "strategist-core/strategist484.ts",
+    "endpoint": "/strategist484"
+  },
+  {
+    "handler": "strategist485",
+    "module": "strategist-core/strategist485.ts",
+    "endpoint": "/strategist485"
+  },
+  {
+    "handler": "strategist486",
+    "module": "strategist-core/strategist486.ts",
+    "endpoint": "/strategist486"
+  },
+  {
+    "handler": "strategist487",
+    "module": "strategist-core/strategist487.ts",
+    "endpoint": "/strategist487"
+  },
+  {
+    "handler": "strategist488",
+    "module": "strategist-core/strategist488.ts",
+    "endpoint": "/strategist488"
+  },
+  {
+    "handler": "strategist489",
+    "module": "strategist-core/strategist489.ts",
+    "endpoint": "/strategist489"
+  },
+  {
+    "handler": "strategist49",
+    "module": "strategist-core/strategist49.ts",
+    "endpoint": "/strategist49"
+  },
+  {
+    "handler": "strategist490",
+    "module": "strategist-core/strategist490.ts",
+    "endpoint": "/strategist490"
+  },
+  {
+    "handler": "strategist491",
+    "module": "strategist-core/strategist491.ts",
+    "endpoint": "/strategist491"
+  },
+  {
+    "handler": "strategist492",
+    "module": "strategist-core/strategist492.ts",
+    "endpoint": "/strategist492"
+  },
+  {
+    "handler": "strategist493",
+    "module": "strategist-core/strategist493.ts",
+    "endpoint": "/strategist493"
+  },
+  {
+    "handler": "strategist494",
+    "module": "strategist-core/strategist494.ts",
+    "endpoint": "/strategist494"
+  },
+  {
+    "handler": "strategist495",
+    "module": "strategist-core/strategist495.ts",
+    "endpoint": "/strategist495"
+  },
+  {
+    "handler": "strategist496",
+    "module": "strategist-core/strategist496.ts",
+    "endpoint": "/strategist496"
+  },
+  {
+    "handler": "strategist497",
+    "module": "strategist-core/strategist497.ts",
+    "endpoint": "/strategist497"
+  },
+  {
+    "handler": "strategist498",
+    "module": "strategist-core/strategist498.ts",
+    "endpoint": "/strategist498"
+  },
+  {
+    "handler": "strategist499",
+    "module": "strategist-core/strategist499.ts",
+    "endpoint": "/strategist499"
+  },
+  {
+    "handler": "strategist5",
+    "module": "strategist-core/strategist5.ts",
+    "endpoint": "/strategist5"
+  },
+  {
+    "handler": "strategist50",
+    "module": "strategist-core/strategist50.ts",
+    "endpoint": "/strategist50"
+  },
+  {
+    "handler": "strategist500",
+    "module": "strategist-core/strategist500.ts",
+    "endpoint": "/strategist500"
+  },
+  {
+    "handler": "strategist501",
+    "module": "strategist-core/strategist501.ts",
+    "endpoint": "/strategist501"
+  },
+  {
+    "handler": "strategist502",
+    "module": "strategist-core/strategist502.ts",
+    "endpoint": "/strategist502"
+  },
+  {
+    "handler": "strategist503",
+    "module": "strategist-core/strategist503.ts",
+    "endpoint": "/strategist503"
+  },
+  {
+    "handler": "strategist504",
+    "module": "strategist-core/strategist504.ts",
+    "endpoint": "/strategist504"
+  },
+  {
+    "handler": "strategist505",
+    "module": "strategist-core/strategist505.ts",
+    "endpoint": "/strategist505"
+  },
+  {
+    "handler": "strategist506",
+    "module": "strategist-core/strategist506.ts",
+    "endpoint": "/strategist506"
+  },
+  {
+    "handler": "strategist507",
+    "module": "strategist-core/strategist507.ts",
+    "endpoint": "/strategist507"
+  },
+  {
+    "handler": "strategist508",
+    "module": "strategist-core/strategist508.ts",
+    "endpoint": "/strategist508"
+  },
+  {
+    "handler": "strategist509",
+    "module": "strategist-core/strategist509.ts",
+    "endpoint": "/strategist509"
+  },
+  {
+    "handler": "strategist51",
+    "module": "strategist-core/strategist51.ts",
+    "endpoint": "/strategist51"
+  },
+  {
+    "handler": "strategist510",
+    "module": "strategist-core/strategist510.ts",
+    "endpoint": "/strategist510"
+  },
+  {
+    "handler": "strategist511",
+    "module": "strategist-core/strategist511.ts",
+    "endpoint": "/strategist511"
+  },
+  {
+    "handler": "strategist512",
+    "module": "strategist-core/strategist512.ts",
+    "endpoint": "/strategist512"
+  },
+  {
+    "handler": "strategist513",
+    "module": "strategist-core/strategist513.ts",
+    "endpoint": "/strategist513"
+  },
+  {
+    "handler": "strategist514",
+    "module": "strategist-core/strategist514.ts",
+    "endpoint": "/strategist514"
+  },
+  {
+    "handler": "strategist515",
+    "module": "strategist-core/strategist515.ts",
+    "endpoint": "/strategist515"
+  },
+  {
+    "handler": "strategist516",
+    "module": "strategist-core/strategist516.ts",
+    "endpoint": "/strategist516"
+  },
+  {
+    "handler": "strategist517",
+    "module": "strategist-core/strategist517.ts",
+    "endpoint": "/strategist517"
+  },
+  {
+    "handler": "strategist518",
+    "module": "strategist-core/strategist518.ts",
+    "endpoint": "/strategist518"
+  },
+  {
+    "handler": "strategist519",
+    "module": "strategist-core/strategist519.ts",
+    "endpoint": "/strategist519"
+  },
+  {
+    "handler": "strategist52",
+    "module": "strategist-core/strategist52.ts",
+    "endpoint": "/strategist52"
+  },
+  {
+    "handler": "strategist520",
+    "module": "strategist-core/strategist520.ts",
+    "endpoint": "/strategist520"
+  },
+  {
+    "handler": "strategist521",
+    "module": "strategist-core/strategist521.ts",
+    "endpoint": "/strategist521"
+  },
+  {
+    "handler": "strategist522",
+    "module": "strategist-core/strategist522.ts",
+    "endpoint": "/strategist522"
+  },
+  {
+    "handler": "strategist523",
+    "module": "strategist-core/strategist523.ts",
+    "endpoint": "/strategist523"
+  },
+  {
+    "handler": "strategist524",
+    "module": "strategist-core/strategist524.ts",
+    "endpoint": "/strategist524"
+  },
+  {
+    "handler": "strategist525",
+    "module": "strategist-core/strategist525.ts",
+    "endpoint": "/strategist525"
+  },
+  {
+    "handler": "strategist526",
+    "module": "strategist-core/strategist526.ts",
+    "endpoint": "/strategist526"
+  },
+  {
+    "handler": "strategist527",
+    "module": "strategist-core/strategist527.ts",
+    "endpoint": "/strategist527"
+  },
+  {
+    "handler": "strategist528",
+    "module": "strategist-core/strategist528.ts",
+    "endpoint": "/strategist528"
+  },
+  {
+    "handler": "strategist529",
+    "module": "strategist-core/strategist529.ts",
+    "endpoint": "/strategist529"
+  },
+  {
+    "handler": "strategist53",
+    "module": "strategist-core/strategist53.ts",
+    "endpoint": "/strategist53"
+  },
+  {
+    "handler": "strategist530",
+    "module": "strategist-core/strategist530.ts",
+    "endpoint": "/strategist530"
+  },
+  {
+    "handler": "strategist531",
+    "module": "strategist-core/strategist531.ts",
+    "endpoint": "/strategist531"
+  },
+  {
+    "handler": "strategist532",
+    "module": "strategist-core/strategist532.ts",
+    "endpoint": "/strategist532"
+  },
+  {
+    "handler": "strategist533",
+    "module": "strategist-core/strategist533.ts",
+    "endpoint": "/strategist533"
+  },
+  {
+    "handler": "strategist534",
+    "module": "strategist-core/strategist534.ts",
+    "endpoint": "/strategist534"
+  },
+  {
+    "handler": "strategist535",
+    "module": "strategist-core/strategist535.ts",
+    "endpoint": "/strategist535"
+  },
+  {
+    "handler": "strategist536",
+    "module": "strategist-core/strategist536.ts",
+    "endpoint": "/strategist536"
+  },
+  {
+    "handler": "strategist537",
+    "module": "strategist-core/strategist537.ts",
+    "endpoint": "/strategist537"
+  },
+  {
+    "handler": "strategist538",
+    "module": "strategist-core/strategist538.ts",
+    "endpoint": "/strategist538"
+  },
+  {
+    "handler": "strategist539",
+    "module": "strategist-core/strategist539.ts",
+    "endpoint": "/strategist539"
+  },
+  {
+    "handler": "strategist54",
+    "module": "strategist-core/strategist54.ts",
+    "endpoint": "/strategist54"
+  },
+  {
+    "handler": "strategist540",
+    "module": "strategist-core/strategist540.ts",
+    "endpoint": "/strategist540"
+  },
+  {
+    "handler": "strategist541",
+    "module": "strategist-core/strategist541.ts",
+    "endpoint": "/strategist541"
+  },
+  {
+    "handler": "strategist542",
+    "module": "strategist-core/strategist542.ts",
+    "endpoint": "/strategist542"
+  },
+  {
+    "handler": "strategist543",
+    "module": "strategist-core/strategist543.ts",
+    "endpoint": "/strategist543"
+  },
+  {
+    "handler": "strategist544",
+    "module": "strategist-core/strategist544.ts",
+    "endpoint": "/strategist544"
+  },
+  {
+    "handler": "strategist545",
+    "module": "strategist-core/strategist545.ts",
+    "endpoint": "/strategist545"
+  },
+  {
+    "handler": "strategist546",
+    "module": "strategist-core/strategist546.ts",
+    "endpoint": "/strategist546"
+  },
+  {
+    "handler": "strategist547",
+    "module": "strategist-core/strategist547.ts",
+    "endpoint": "/strategist547"
+  },
+  {
+    "handler": "strategist548",
+    "module": "strategist-core/strategist548.ts",
+    "endpoint": "/strategist548"
+  },
+  {
+    "handler": "strategist549",
+    "module": "strategist-core/strategist549.ts",
+    "endpoint": "/strategist549"
+  },
+  {
+    "handler": "strategist55",
+    "module": "strategist-core/strategist55.ts",
+    "endpoint": "/strategist55"
+  },
+  {
+    "handler": "strategist550",
+    "module": "strategist-core/strategist550.ts",
+    "endpoint": "/strategist550"
+  },
+  {
+    "handler": "strategist551",
+    "module": "strategist-core/strategist551.ts",
+    "endpoint": "/strategist551"
+  },
+  {
+    "handler": "strategist552",
+    "module": "strategist-core/strategist552.ts",
+    "endpoint": "/strategist552"
+  },
+  {
+    "handler": "strategist553",
+    "module": "strategist-core/strategist553.ts",
+    "endpoint": "/strategist553"
+  },
+  {
+    "handler": "strategist554",
+    "module": "strategist-core/strategist554.ts",
+    "endpoint": "/strategist554"
+  },
+  {
+    "handler": "strategist555",
+    "module": "strategist-core/strategist555.ts",
+    "endpoint": "/strategist555"
+  },
+  {
+    "handler": "strategist556",
+    "module": "strategist-core/strategist556.ts",
+    "endpoint": "/strategist556"
+  },
+  {
+    "handler": "strategist557",
+    "module": "strategist-core/strategist557.ts",
+    "endpoint": "/strategist557"
+  },
+  {
+    "handler": "strategist558",
+    "module": "strategist-core/strategist558.ts",
+    "endpoint": "/strategist558"
+  },
+  {
+    "handler": "strategist559",
+    "module": "strategist-core/strategist559.ts",
+    "endpoint": "/strategist559"
+  },
+  {
+    "handler": "strategist56",
+    "module": "strategist-core/strategist56.ts",
+    "endpoint": "/strategist56"
+  },
+  {
+    "handler": "strategist560",
+    "module": "strategist-core/strategist560.ts",
+    "endpoint": "/strategist560"
+  },
+  {
+    "handler": "strategist561",
+    "module": "strategist-core/strategist561.ts",
+    "endpoint": "/strategist561"
+  },
+  {
+    "handler": "strategist562",
+    "module": "strategist-core/strategist562.ts",
+    "endpoint": "/strategist562"
+  },
+  {
+    "handler": "strategist563",
+    "module": "strategist-core/strategist563.ts",
+    "endpoint": "/strategist563"
+  },
+  {
+    "handler": "strategist564",
+    "module": "strategist-core/strategist564.ts",
+    "endpoint": "/strategist564"
+  },
+  {
+    "handler": "strategist565",
+    "module": "strategist-core/strategist565.ts",
+    "endpoint": "/strategist565"
+  },
+  {
+    "handler": "strategist566",
+    "module": "strategist-core/strategist566.ts",
+    "endpoint": "/strategist566"
+  },
+  {
+    "handler": "strategist567",
+    "module": "strategist-core/strategist567.ts",
+    "endpoint": "/strategist567"
+  },
+  {
+    "handler": "strategist568",
+    "module": "strategist-core/strategist568.ts",
+    "endpoint": "/strategist568"
+  },
+  {
+    "handler": "strategist569",
+    "module": "strategist-core/strategist569.ts",
+    "endpoint": "/strategist569"
+  },
+  {
+    "handler": "strategist57",
+    "module": "strategist-core/strategist57.ts",
+    "endpoint": "/strategist57"
+  },
+  {
+    "handler": "strategist570",
+    "module": "strategist-core/strategist570.ts",
+    "endpoint": "/strategist570"
+  },
+  {
+    "handler": "strategist571",
+    "module": "strategist-core/strategist571.ts",
+    "endpoint": "/strategist571"
+  },
+  {
+    "handler": "strategist572",
+    "module": "strategist-core/strategist572.ts",
+    "endpoint": "/strategist572"
+  },
+  {
+    "handler": "strategist573",
+    "module": "strategist-core/strategist573.ts",
+    "endpoint": "/strategist573"
+  },
+  {
+    "handler": "strategist574",
+    "module": "strategist-core/strategist574.ts",
+    "endpoint": "/strategist574"
+  },
+  {
+    "handler": "strategist575",
+    "module": "strategist-core/strategist575.ts",
+    "endpoint": "/strategist575"
+  },
+  {
+    "handler": "strategist576",
+    "module": "strategist-core/strategist576.ts",
+    "endpoint": "/strategist576"
+  },
+  {
+    "handler": "strategist577",
+    "module": "strategist-core/strategist577.ts",
+    "endpoint": "/strategist577"
+  },
+  {
+    "handler": "strategist578",
+    "module": "strategist-core/strategist578.ts",
+    "endpoint": "/strategist578"
+  },
+  {
+    "handler": "strategist579",
+    "module": "strategist-core/strategist579.ts",
+    "endpoint": "/strategist579"
+  },
+  {
+    "handler": "strategist58",
+    "module": "strategist-core/strategist58.ts",
+    "endpoint": "/strategist58"
+  },
+  {
+    "handler": "strategist580",
+    "module": "strategist-core/strategist580.ts",
+    "endpoint": "/strategist580"
+  },
+  {
+    "handler": "strategist581",
+    "module": "strategist-core/strategist581.ts",
+    "endpoint": "/strategist581"
+  },
+  {
+    "handler": "strategist582",
+    "module": "strategist-core/strategist582.ts",
+    "endpoint": "/strategist582"
+  },
+  {
+    "handler": "strategist583",
+    "module": "strategist-core/strategist583.ts",
+    "endpoint": "/strategist583"
+  },
+  {
+    "handler": "strategist584",
+    "module": "strategist-core/strategist584.ts",
+    "endpoint": "/strategist584"
+  },
+  {
+    "handler": "strategist585",
+    "module": "strategist-core/strategist585.ts",
+    "endpoint": "/strategist585"
+  },
+  {
+    "handler": "strategist586",
+    "module": "strategist-core/strategist586.ts",
+    "endpoint": "/strategist586"
+  },
+  {
+    "handler": "strategist587",
+    "module": "strategist-core/strategist587.ts",
+    "endpoint": "/strategist587"
+  },
+  {
+    "handler": "strategist588",
+    "module": "strategist-core/strategist588.ts",
+    "endpoint": "/strategist588"
+  },
+  {
+    "handler": "strategist589",
+    "module": "strategist-core/strategist589.ts",
+    "endpoint": "/strategist589"
+  },
+  {
+    "handler": "strategist59",
+    "module": "strategist-core/strategist59.ts",
+    "endpoint": "/strategist59"
+  },
+  {
+    "handler": "strategist590",
+    "module": "strategist-core/strategist590.ts",
+    "endpoint": "/strategist590"
+  },
+  {
+    "handler": "strategist591",
+    "module": "strategist-core/strategist591.ts",
+    "endpoint": "/strategist591"
+  },
+  {
+    "handler": "strategist592",
+    "module": "strategist-core/strategist592.ts",
+    "endpoint": "/strategist592"
+  },
+  {
+    "handler": "strategist593",
+    "module": "strategist-core/strategist593.ts",
+    "endpoint": "/strategist593"
+  },
+  {
+    "handler": "strategist594",
+    "module": "strategist-core/strategist594.ts",
+    "endpoint": "/strategist594"
+  },
+  {
+    "handler": "strategist595",
+    "module": "strategist-core/strategist595.ts",
+    "endpoint": "/strategist595"
+  },
+  {
+    "handler": "strategist596",
+    "module": "strategist-core/strategist596.ts",
+    "endpoint": "/strategist596"
+  },
+  {
+    "handler": "strategist597",
+    "module": "strategist-core/strategist597.ts",
+    "endpoint": "/strategist597"
+  },
+  {
+    "handler": "strategist598",
+    "module": "strategist-core/strategist598.ts",
+    "endpoint": "/strategist598"
+  },
+  {
+    "handler": "strategist599",
+    "module": "strategist-core/strategist599.ts",
+    "endpoint": "/strategist599"
+  },
+  {
+    "handler": "strategist6",
+    "module": "strategist-core/strategist6.ts",
+    "endpoint": "/strategist6"
+  },
+  {
+    "handler": "strategist60",
+    "module": "strategist-core/strategist60.ts",
+    "endpoint": "/strategist60"
+  },
+  {
+    "handler": "strategist600",
+    "module": "strategist-core/strategist600.ts",
+    "endpoint": "/strategist600"
+  },
+  {
+    "handler": "strategist601",
+    "module": "strategist-core/strategist601.ts",
+    "endpoint": "/strategist601"
+  },
+  {
+    "handler": "strategist602",
+    "module": "strategist-core/strategist602.ts",
+    "endpoint": "/strategist602"
+  },
+  {
+    "handler": "strategist603",
+    "module": "strategist-core/strategist603.ts",
+    "endpoint": "/strategist603"
+  },
+  {
+    "handler": "strategist604",
+    "module": "strategist-core/strategist604.ts",
+    "endpoint": "/strategist604"
+  },
+  {
+    "handler": "strategist605",
+    "module": "strategist-core/strategist605.ts",
+    "endpoint": "/strategist605"
+  },
+  {
+    "handler": "strategist606",
+    "module": "strategist-core/strategist606.ts",
+    "endpoint": "/strategist606"
+  },
+  {
+    "handler": "strategist607",
+    "module": "strategist-core/strategist607.ts",
+    "endpoint": "/strategist607"
+  },
+  {
+    "handler": "strategist608",
+    "module": "strategist-core/strategist608.ts",
+    "endpoint": "/strategist608"
+  },
+  {
+    "handler": "strategist609",
+    "module": "strategist-core/strategist609.ts",
+    "endpoint": "/strategist609"
+  },
+  {
+    "handler": "strategist61",
+    "module": "strategist-core/strategist61.ts",
+    "endpoint": "/strategist61"
+  },
+  {
+    "handler": "strategist610",
+    "module": "strategist-core/strategist610.ts",
+    "endpoint": "/strategist610"
+  },
+  {
+    "handler": "strategist611",
+    "module": "strategist-core/strategist611.ts",
+    "endpoint": "/strategist611"
+  },
+  {
+    "handler": "strategist612",
+    "module": "strategist-core/strategist612.ts",
+    "endpoint": "/strategist612"
+  },
+  {
+    "handler": "strategist613",
+    "module": "strategist-core/strategist613.ts",
+    "endpoint": "/strategist613"
+  },
+  {
+    "handler": "strategist614",
+    "module": "strategist-core/strategist614.ts",
+    "endpoint": "/strategist614"
+  },
+  {
+    "handler": "strategist615",
+    "module": "strategist-core/strategist615.ts",
+    "endpoint": "/strategist615"
+  },
+  {
+    "handler": "strategist616",
+    "module": "strategist-core/strategist616.ts",
+    "endpoint": "/strategist616"
+  },
+  {
+    "handler": "strategist617",
+    "module": "strategist-core/strategist617.ts",
+    "endpoint": "/strategist617"
+  },
+  {
+    "handler": "strategist618",
+    "module": "strategist-core/strategist618.ts",
+    "endpoint": "/strategist618"
+  },
+  {
+    "handler": "strategist619",
+    "module": "strategist-core/strategist619.ts",
+    "endpoint": "/strategist619"
+  },
+  {
+    "handler": "strategist62",
+    "module": "strategist-core/strategist62.ts",
+    "endpoint": "/strategist62"
+  },
+  {
+    "handler": "strategist620",
+    "module": "strategist-core/strategist620.ts",
+    "endpoint": "/strategist620"
+  },
+  {
+    "handler": "strategist621",
+    "module": "strategist-core/strategist621.ts",
+    "endpoint": "/strategist621"
+  },
+  {
+    "handler": "strategist622",
+    "module": "strategist-core/strategist622.ts",
+    "endpoint": "/strategist622"
+  },
+  {
+    "handler": "strategist623",
+    "module": "strategist-core/strategist623.ts",
+    "endpoint": "/strategist623"
+  },
+  {
+    "handler": "strategist624",
+    "module": "strategist-core/strategist624.ts",
+    "endpoint": "/strategist624"
+  },
+  {
+    "handler": "strategist625",
+    "module": "strategist-core/strategist625.ts",
+    "endpoint": "/strategist625"
+  },
+  {
+    "handler": "strategist626",
+    "module": "strategist-core/strategist626.ts",
+    "endpoint": "/strategist626"
+  },
+  {
+    "handler": "strategist627",
+    "module": "strategist-core/strategist627.ts",
+    "endpoint": "/strategist627"
+  },
+  {
+    "handler": "strategist628",
+    "module": "strategist-core/strategist628.ts",
+    "endpoint": "/strategist628"
+  },
+  {
+    "handler": "strategist629",
+    "module": "strategist-core/strategist629.ts",
+    "endpoint": "/strategist629"
+  },
+  {
+    "handler": "strategist63",
+    "module": "strategist-core/strategist63.ts",
+    "endpoint": "/strategist63"
+  },
+  {
+    "handler": "strategist630",
+    "module": "strategist-core/strategist630.ts",
+    "endpoint": "/strategist630"
+  },
+  {
+    "handler": "strategist631",
+    "module": "strategist-core/strategist631.ts",
+    "endpoint": "/strategist631"
+  },
+  {
+    "handler": "strategist632",
+    "module": "strategist-core/strategist632.ts",
+    "endpoint": "/strategist632"
+  },
+  {
+    "handler": "strategist633",
+    "module": "strategist-core/strategist633.ts",
+    "endpoint": "/strategist633"
+  },
+  {
+    "handler": "strategist634",
+    "module": "strategist-core/strategist634.ts",
+    "endpoint": "/strategist634"
+  },
+  {
+    "handler": "strategist635",
+    "module": "strategist-core/strategist635.ts",
+    "endpoint": "/strategist635"
+  },
+  {
+    "handler": "strategist636",
+    "module": "strategist-core/strategist636.ts",
+    "endpoint": "/strategist636"
+  },
+  {
+    "handler": "strategist637",
+    "module": "strategist-core/strategist637.ts",
+    "endpoint": "/strategist637"
+  },
+  {
+    "handler": "strategist638",
+    "module": "strategist-core/strategist638.ts",
+    "endpoint": "/strategist638"
+  },
+  {
+    "handler": "strategist639",
+    "module": "strategist-core/strategist639.ts",
+    "endpoint": "/strategist639"
+  },
+  {
+    "handler": "strategist64",
+    "module": "strategist-core/strategist64.ts",
+    "endpoint": "/strategist64"
+  },
+  {
+    "handler": "strategist640",
+    "module": "strategist-core/strategist640.ts",
+    "endpoint": "/strategist640"
+  },
+  {
+    "handler": "strategist641",
+    "module": "strategist-core/strategist641.ts",
+    "endpoint": "/strategist641"
+  },
+  {
+    "handler": "strategist642",
+    "module": "strategist-core/strategist642.ts",
+    "endpoint": "/strategist642"
+  },
+  {
+    "handler": "strategist643",
+    "module": "strategist-core/strategist643.ts",
+    "endpoint": "/strategist643"
+  },
+  {
+    "handler": "strategist644",
+    "module": "strategist-core/strategist644.ts",
+    "endpoint": "/strategist644"
+  },
+  {
+    "handler": "strategist645",
+    "module": "strategist-core/strategist645.ts",
+    "endpoint": "/strategist645"
+  },
+  {
+    "handler": "strategist646",
+    "module": "strategist-core/strategist646.ts",
+    "endpoint": "/strategist646"
+  },
+  {
+    "handler": "strategist647",
+    "module": "strategist-core/strategist647.ts",
+    "endpoint": "/strategist647"
+  },
+  {
+    "handler": "strategist648",
+    "module": "strategist-core/strategist648.ts",
+    "endpoint": "/strategist648"
+  },
+  {
+    "handler": "strategist649",
+    "module": "strategist-core/strategist649.ts",
+    "endpoint": "/strategist649"
+  },
+  {
+    "handler": "strategist65",
+    "module": "strategist-core/strategist65.ts",
+    "endpoint": "/strategist65"
+  },
+  {
+    "handler": "strategist650",
+    "module": "strategist-core/strategist650.ts",
+    "endpoint": "/strategist650"
+  },
+  {
+    "handler": "strategist651",
+    "module": "strategist-core/strategist651.ts",
+    "endpoint": "/strategist651"
+  },
+  {
+    "handler": "strategist652",
+    "module": "strategist-core/strategist652.ts",
+    "endpoint": "/strategist652"
+  },
+  {
+    "handler": "strategist653",
+    "module": "strategist-core/strategist653.ts",
+    "endpoint": "/strategist653"
+  },
+  {
+    "handler": "strategist654",
+    "module": "strategist-core/strategist654.ts",
+    "endpoint": "/strategist654"
+  },
+  {
+    "handler": "strategist655",
+    "module": "strategist-core/strategist655.ts",
+    "endpoint": "/strategist655"
+  },
+  {
+    "handler": "strategist656",
+    "module": "strategist-core/strategist656.ts",
+    "endpoint": "/strategist656"
+  },
+  {
+    "handler": "strategist657",
+    "module": "strategist-core/strategist657.ts",
+    "endpoint": "/strategist657"
+  },
+  {
+    "handler": "strategist658",
+    "module": "strategist-core/strategist658.ts",
+    "endpoint": "/strategist658"
+  },
+  {
+    "handler": "strategist659",
+    "module": "strategist-core/strategist659.ts",
+    "endpoint": "/strategist659"
+  },
+  {
+    "handler": "strategist66",
+    "module": "strategist-core/strategist66.ts",
+    "endpoint": "/strategist66"
+  },
+  {
+    "handler": "strategist660",
+    "module": "strategist-core/strategist660.ts",
+    "endpoint": "/strategist660"
+  },
+  {
+    "handler": "strategist661",
+    "module": "strategist-core/strategist661.ts",
+    "endpoint": "/strategist661"
+  },
+  {
+    "handler": "strategist662",
+    "module": "strategist-core/strategist662.ts",
+    "endpoint": "/strategist662"
+  },
+  {
+    "handler": "strategist663",
+    "module": "strategist-core/strategist663.ts",
+    "endpoint": "/strategist663"
+  },
+  {
+    "handler": "strategist664",
+    "module": "strategist-core/strategist664.ts",
+    "endpoint": "/strategist664"
+  },
+  {
+    "handler": "strategist665",
+    "module": "strategist-core/strategist665.ts",
+    "endpoint": "/strategist665"
+  },
+  {
+    "handler": "strategist666",
+    "module": "strategist-core/strategist666.ts",
+    "endpoint": "/strategist666"
+  },
+  {
+    "handler": "strategist667",
+    "module": "strategist-core/strategist667.ts",
+    "endpoint": "/strategist667"
+  },
+  {
+    "handler": "strategist668",
+    "module": "strategist-core/strategist668.ts",
+    "endpoint": "/strategist668"
+  },
+  {
+    "handler": "strategist669",
+    "module": "strategist-core/strategist669.ts",
+    "endpoint": "/strategist669"
+  },
+  {
+    "handler": "strategist67",
+    "module": "strategist-core/strategist67.ts",
+    "endpoint": "/strategist67"
+  },
+  {
+    "handler": "strategist670",
+    "module": "strategist-core/strategist670.ts",
+    "endpoint": "/strategist670"
+  },
+  {
+    "handler": "strategist671",
+    "module": "strategist-core/strategist671.ts",
+    "endpoint": "/strategist671"
+  },
+  {
+    "handler": "strategist672",
+    "module": "strategist-core/strategist672.ts",
+    "endpoint": "/strategist672"
+  },
+  {
+    "handler": "strategist673",
+    "module": "strategist-core/strategist673.ts",
+    "endpoint": "/strategist673"
+  },
+  {
+    "handler": "strategist674",
+    "module": "strategist-core/strategist674.ts",
+    "endpoint": "/strategist674"
+  },
+  {
+    "handler": "strategist675",
+    "module": "strategist-core/strategist675.ts",
+    "endpoint": "/strategist675"
+  },
+  {
+    "handler": "strategist676",
+    "module": "strategist-core/strategist676.ts",
+    "endpoint": "/strategist676"
+  },
+  {
+    "handler": "strategist677",
+    "module": "strategist-core/strategist677.ts",
+    "endpoint": "/strategist677"
+  },
+  {
+    "handler": "strategist678",
+    "module": "strategist-core/strategist678.ts",
+    "endpoint": "/strategist678"
+  },
+  {
+    "handler": "strategist679",
+    "module": "strategist-core/strategist679.ts",
+    "endpoint": "/strategist679"
+  },
+  {
+    "handler": "strategist68",
+    "module": "strategist-core/strategist68.ts",
+    "endpoint": "/strategist68"
+  },
+  {
+    "handler": "strategist680",
+    "module": "strategist-core/strategist680.ts",
+    "endpoint": "/strategist680"
+  },
+  {
+    "handler": "strategist681",
+    "module": "strategist-core/strategist681.ts",
+    "endpoint": "/strategist681"
+  },
+  {
+    "handler": "strategist682",
+    "module": "strategist-core/strategist682.ts",
+    "endpoint": "/strategist682"
+  },
+  {
+    "handler": "strategist683",
+    "module": "strategist-core/strategist683.ts",
+    "endpoint": "/strategist683"
+  },
+  {
+    "handler": "strategist684",
+    "module": "strategist-core/strategist684.ts",
+    "endpoint": "/strategist684"
+  },
+  {
+    "handler": "strategist685",
+    "module": "strategist-core/strategist685.ts",
+    "endpoint": "/strategist685"
+  },
+  {
+    "handler": "strategist686",
+    "module": "strategist-core/strategist686.ts",
+    "endpoint": "/strategist686"
+  },
+  {
+    "handler": "strategist687",
+    "module": "strategist-core/strategist687.ts",
+    "endpoint": "/strategist687"
+  },
+  {
+    "handler": "strategist688",
+    "module": "strategist-core/strategist688.ts",
+    "endpoint": "/strategist688"
+  },
+  {
+    "handler": "strategist689",
+    "module": "strategist-core/strategist689.ts",
+    "endpoint": "/strategist689"
+  },
+  {
+    "handler": "strategist69",
+    "module": "strategist-core/strategist69.ts",
+    "endpoint": "/strategist69"
+  },
+  {
+    "handler": "strategist690",
+    "module": "strategist-core/strategist690.ts",
+    "endpoint": "/strategist690"
+  },
+  {
+    "handler": "strategist691",
+    "module": "strategist-core/strategist691.ts",
+    "endpoint": "/strategist691"
+  },
+  {
+    "handler": "strategist692",
+    "module": "strategist-core/strategist692.ts",
+    "endpoint": "/strategist692"
+  },
+  {
+    "handler": "strategist693",
+    "module": "strategist-core/strategist693.ts",
+    "endpoint": "/strategist693"
+  },
+  {
+    "handler": "strategist694",
+    "module": "strategist-core/strategist694.ts",
+    "endpoint": "/strategist694"
+  },
+  {
+    "handler": "strategist695",
+    "module": "strategist-core/strategist695.ts",
+    "endpoint": "/strategist695"
+  },
+  {
+    "handler": "strategist696",
+    "module": "strategist-core/strategist696.ts",
+    "endpoint": "/strategist696"
+  },
+  {
+    "handler": "strategist697",
+    "module": "strategist-core/strategist697.ts",
+    "endpoint": "/strategist697"
+  },
+  {
+    "handler": "strategist698",
+    "module": "strategist-core/strategist698.ts",
+    "endpoint": "/strategist698"
+  },
+  {
+    "handler": "strategist699",
+    "module": "strategist-core/strategist699.ts",
+    "endpoint": "/strategist699"
+  },
+  {
+    "handler": "strategist7",
+    "module": "strategist-core/strategist7.ts",
+    "endpoint": "/strategist7"
+  },
+  {
+    "handler": "strategist70",
+    "module": "strategist-core/strategist70.ts",
+    "endpoint": "/strategist70"
+  },
+  {
+    "handler": "strategist700",
+    "module": "strategist-core/strategist700.ts",
+    "endpoint": "/strategist700"
+  },
+  {
+    "handler": "strategist701",
+    "module": "strategist-core/strategist701.ts",
+    "endpoint": "/strategist701"
+  },
+  {
+    "handler": "strategist702",
+    "module": "strategist-core/strategist702.ts",
+    "endpoint": "/strategist702"
+  },
+  {
+    "handler": "strategist703",
+    "module": "strategist-core/strategist703.ts",
+    "endpoint": "/strategist703"
+  },
+  {
+    "handler": "strategist704",
+    "module": "strategist-core/strategist704.ts",
+    "endpoint": "/strategist704"
+  },
+  {
+    "handler": "strategist705",
+    "module": "strategist-core/strategist705.ts",
+    "endpoint": "/strategist705"
+  },
+  {
+    "handler": "strategist706",
+    "module": "strategist-core/strategist706.ts",
+    "endpoint": "/strategist706"
+  },
+  {
+    "handler": "strategist707",
+    "module": "strategist-core/strategist707.ts",
+    "endpoint": "/strategist707"
+  },
+  {
+    "handler": "strategist708",
+    "module": "strategist-core/strategist708.ts",
+    "endpoint": "/strategist708"
+  },
+  {
+    "handler": "strategist709",
+    "module": "strategist-core/strategist709.ts",
+    "endpoint": "/strategist709"
+  },
+  {
+    "handler": "strategist71",
+    "module": "strategist-core/strategist71.ts",
+    "endpoint": "/strategist71"
+  },
+  {
+    "handler": "strategist710",
+    "module": "strategist-core/strategist710.ts",
+    "endpoint": "/strategist710"
+  },
+  {
+    "handler": "strategist711",
+    "module": "strategist-core/strategist711.ts",
+    "endpoint": "/strategist711"
+  },
+  {
+    "handler": "strategist712",
+    "module": "strategist-core/strategist712.ts",
+    "endpoint": "/strategist712"
+  },
+  {
+    "handler": "strategist713",
+    "module": "strategist-core/strategist713.ts",
+    "endpoint": "/strategist713"
+  },
+  {
+    "handler": "strategist714",
+    "module": "strategist-core/strategist714.ts",
+    "endpoint": "/strategist714"
+  },
+  {
+    "handler": "strategist715",
+    "module": "strategist-core/strategist715.ts",
+    "endpoint": "/strategist715"
+  },
+  {
+    "handler": "strategist716",
+    "module": "strategist-core/strategist716.ts",
+    "endpoint": "/strategist716"
+  },
+  {
+    "handler": "strategist717",
+    "module": "strategist-core/strategist717.ts",
+    "endpoint": "/strategist717"
+  },
+  {
+    "handler": "strategist718",
+    "module": "strategist-core/strategist718.ts",
+    "endpoint": "/strategist718"
+  },
+  {
+    "handler": "strategist719",
+    "module": "strategist-core/strategist719.ts",
+    "endpoint": "/strategist719"
+  },
+  {
+    "handler": "strategist72",
+    "module": "strategist-core/strategist72.ts",
+    "endpoint": "/strategist72"
+  },
+  {
+    "handler": "strategist720",
+    "module": "strategist-core/strategist720.ts",
+    "endpoint": "/strategist720"
+  },
+  {
+    "handler": "strategist721",
+    "module": "strategist-core/strategist721.ts",
+    "endpoint": "/strategist721"
+  },
+  {
+    "handler": "strategist722",
+    "module": "strategist-core/strategist722.ts",
+    "endpoint": "/strategist722"
+  },
+  {
+    "handler": "strategist723",
+    "module": "strategist-core/strategist723.ts",
+    "endpoint": "/strategist723"
+  },
+  {
+    "handler": "strategist724",
+    "module": "strategist-core/strategist724.ts",
+    "endpoint": "/strategist724"
+  },
+  {
+    "handler": "strategist725",
+    "module": "strategist-core/strategist725.ts",
+    "endpoint": "/strategist725"
+  },
+  {
+    "handler": "strategist726",
+    "module": "strategist-core/strategist726.ts",
+    "endpoint": "/strategist726"
+  },
+  {
+    "handler": "strategist727",
+    "module": "strategist-core/strategist727.ts",
+    "endpoint": "/strategist727"
+  },
+  {
+    "handler": "strategist728",
+    "module": "strategist-core/strategist728.ts",
+    "endpoint": "/strategist728"
+  },
+  {
+    "handler": "strategist729",
+    "module": "strategist-core/strategist729.ts",
+    "endpoint": "/strategist729"
+  },
+  {
+    "handler": "strategist73",
+    "module": "strategist-core/strategist73.ts",
+    "endpoint": "/strategist73"
+  },
+  {
+    "handler": "strategist730",
+    "module": "strategist-core/strategist730.ts",
+    "endpoint": "/strategist730"
+  },
+  {
+    "handler": "strategist731",
+    "module": "strategist-core/strategist731.ts",
+    "endpoint": "/strategist731"
+  },
+  {
+    "handler": "strategist732",
+    "module": "strategist-core/strategist732.ts",
+    "endpoint": "/strategist732"
+  },
+  {
+    "handler": "strategist733",
+    "module": "strategist-core/strategist733.ts",
+    "endpoint": "/strategist733"
+  },
+  {
+    "handler": "strategist734",
+    "module": "strategist-core/strategist734.ts",
+    "endpoint": "/strategist734"
+  },
+  {
+    "handler": "strategist735",
+    "module": "strategist-core/strategist735.ts",
+    "endpoint": "/strategist735"
+  },
+  {
+    "handler": "strategist736",
+    "module": "strategist-core/strategist736.ts",
+    "endpoint": "/strategist736"
+  },
+  {
+    "handler": "strategist737",
+    "module": "strategist-core/strategist737.ts",
+    "endpoint": "/strategist737"
+  },
+  {
+    "handler": "strategist738",
+    "module": "strategist-core/strategist738.ts",
+    "endpoint": "/strategist738"
+  },
+  {
+    "handler": "strategist739",
+    "module": "strategist-core/strategist739.ts",
+    "endpoint": "/strategist739"
+  },
+  {
+    "handler": "strategist74",
+    "module": "strategist-core/strategist74.ts",
+    "endpoint": "/strategist74"
+  },
+  {
+    "handler": "strategist740",
+    "module": "strategist-core/strategist740.ts",
+    "endpoint": "/strategist740"
+  },
+  {
+    "handler": "strategist741",
+    "module": "strategist-core/strategist741.ts",
+    "endpoint": "/strategist741"
+  },
+  {
+    "handler": "strategist742",
+    "module": "strategist-core/strategist742.ts",
+    "endpoint": "/strategist742"
+  },
+  {
+    "handler": "strategist743",
+    "module": "strategist-core/strategist743.ts",
+    "endpoint": "/strategist743"
+  },
+  {
+    "handler": "strategist744",
+    "module": "strategist-core/strategist744.ts",
+    "endpoint": "/strategist744"
+  },
+  {
+    "handler": "strategist745",
+    "module": "strategist-core/strategist745.ts",
+    "endpoint": "/strategist745"
+  },
+  {
+    "handler": "strategist746",
+    "module": "strategist-core/strategist746.ts",
+    "endpoint": "/strategist746"
+  },
+  {
+    "handler": "strategist747",
+    "module": "strategist-core/strategist747.ts",
+    "endpoint": "/strategist747"
+  },
+  {
+    "handler": "strategist748",
+    "module": "strategist-core/strategist748.ts",
+    "endpoint": "/strategist748"
+  },
+  {
+    "handler": "strategist749",
+    "module": "strategist-core/strategist749.ts",
+    "endpoint": "/strategist749"
+  },
+  {
+    "handler": "strategist75",
+    "module": "strategist-core/strategist75.ts",
+    "endpoint": "/strategist75"
+  },
+  {
+    "handler": "strategist750",
+    "module": "strategist-core/strategist750.ts",
+    "endpoint": "/strategist750"
+  },
+  {
+    "handler": "strategist751",
+    "module": "strategist-core/strategist751.ts",
+    "endpoint": "/strategist751"
+  },
+  {
+    "handler": "strategist752",
+    "module": "strategist-core/strategist752.ts",
+    "endpoint": "/strategist752"
+  },
+  {
+    "handler": "strategist753",
+    "module": "strategist-core/strategist753.ts",
+    "endpoint": "/strategist753"
+  },
+  {
+    "handler": "strategist754",
+    "module": "strategist-core/strategist754.ts",
+    "endpoint": "/strategist754"
+  },
+  {
+    "handler": "strategist755",
+    "module": "strategist-core/strategist755.ts",
+    "endpoint": "/strategist755"
+  },
+  {
+    "handler": "strategist756",
+    "module": "strategist-core/strategist756.ts",
+    "endpoint": "/strategist756"
+  },
+  {
+    "handler": "strategist757",
+    "module": "strategist-core/strategist757.ts",
+    "endpoint": "/strategist757"
+  },
+  {
+    "handler": "strategist758",
+    "module": "strategist-core/strategist758.ts",
+    "endpoint": "/strategist758"
+  },
+  {
+    "handler": "strategist759",
+    "module": "strategist-core/strategist759.ts",
+    "endpoint": "/strategist759"
+  },
+  {
+    "handler": "strategist76",
+    "module": "strategist-core/strategist76.ts",
+    "endpoint": "/strategist76"
+  },
+  {
+    "handler": "strategist760",
+    "module": "strategist-core/strategist760.ts",
+    "endpoint": "/strategist760"
+  },
+  {
+    "handler": "strategist761",
+    "module": "strategist-core/strategist761.ts",
+    "endpoint": "/strategist761"
+  },
+  {
+    "handler": "strategist762",
+    "module": "strategist-core/strategist762.ts",
+    "endpoint": "/strategist762"
+  },
+  {
+    "handler": "strategist763",
+    "module": "strategist-core/strategist763.ts",
+    "endpoint": "/strategist763"
+  },
+  {
+    "handler": "strategist764",
+    "module": "strategist-core/strategist764.ts",
+    "endpoint": "/strategist764"
+  },
+  {
+    "handler": "strategist765",
+    "module": "strategist-core/strategist765.ts",
+    "endpoint": "/strategist765"
+  },
+  {
+    "handler": "strategist766",
+    "module": "strategist-core/strategist766.ts",
+    "endpoint": "/strategist766"
+  },
+  {
+    "handler": "strategist767",
+    "module": "strategist-core/strategist767.ts",
+    "endpoint": "/strategist767"
+  },
+  {
+    "handler": "strategist768",
+    "module": "strategist-core/strategist768.ts",
+    "endpoint": "/strategist768"
+  },
+  {
+    "handler": "strategist769",
+    "module": "strategist-core/strategist769.ts",
+    "endpoint": "/strategist769"
+  },
+  {
+    "handler": "strategist77",
+    "module": "strategist-core/strategist77.ts",
+    "endpoint": "/strategist77"
+  },
+  {
+    "handler": "strategist770",
+    "module": "strategist-core/strategist770.ts",
+    "endpoint": "/strategist770"
+  },
+  {
+    "handler": "strategist771",
+    "module": "strategist-core/strategist771.ts",
+    "endpoint": "/strategist771"
+  },
+  {
+    "handler": "strategist772",
+    "module": "strategist-core/strategist772.ts",
+    "endpoint": "/strategist772"
+  },
+  {
+    "handler": "strategist773",
+    "module": "strategist-core/strategist773.ts",
+    "endpoint": "/strategist773"
+  },
+  {
+    "handler": "strategist774",
+    "module": "strategist-core/strategist774.ts",
+    "endpoint": "/strategist774"
+  },
+  {
+    "handler": "strategist775",
+    "module": "strategist-core/strategist775.ts",
+    "endpoint": "/strategist775"
+  },
+  {
+    "handler": "strategist776",
+    "module": "strategist-core/strategist776.ts",
+    "endpoint": "/strategist776"
+  },
+  {
+    "handler": "strategist777",
+    "module": "strategist-core/strategist777.ts",
+    "endpoint": "/strategist777"
+  },
+  {
+    "handler": "strategist778",
+    "module": "strategist-core/strategist778.ts",
+    "endpoint": "/strategist778"
+  },
+  {
+    "handler": "strategist779",
+    "module": "strategist-core/strategist779.ts",
+    "endpoint": "/strategist779"
+  },
+  {
+    "handler": "strategist78",
+    "module": "strategist-core/strategist78.ts",
+    "endpoint": "/strategist78"
+  },
+  {
+    "handler": "strategist780",
+    "module": "strategist-core/strategist780.ts",
+    "endpoint": "/strategist780"
+  },
+  {
+    "handler": "strategist781",
+    "module": "strategist-core/strategist781.ts",
+    "endpoint": "/strategist781"
+  },
+  {
+    "handler": "strategist782",
+    "module": "strategist-core/strategist782.ts",
+    "endpoint": "/strategist782"
+  },
+  {
+    "handler": "strategist783",
+    "module": "strategist-core/strategist783.ts",
+    "endpoint": "/strategist783"
+  },
+  {
+    "handler": "strategist784",
+    "module": "strategist-core/strategist784.ts",
+    "endpoint": "/strategist784"
+  },
+  {
+    "handler": "strategist785",
+    "module": "strategist-core/strategist785.ts",
+    "endpoint": "/strategist785"
+  },
+  {
+    "handler": "strategist786",
+    "module": "strategist-core/strategist786.ts",
+    "endpoint": "/strategist786"
+  },
+  {
+    "handler": "strategist787",
+    "module": "strategist-core/strategist787.ts",
+    "endpoint": "/strategist787"
+  },
+  {
+    "handler": "strategist788",
+    "module": "strategist-core/strategist788.ts",
+    "endpoint": "/strategist788"
+  },
+  {
+    "handler": "strategist789",
+    "module": "strategist-core/strategist789.ts",
+    "endpoint": "/strategist789"
+  },
+  {
+    "handler": "strategist79",
+    "module": "strategist-core/strategist79.ts",
+    "endpoint": "/strategist79"
+  },
+  {
+    "handler": "strategist790",
+    "module": "strategist-core/strategist790.ts",
+    "endpoint": "/strategist790"
+  },
+  {
+    "handler": "strategist791",
+    "module": "strategist-core/strategist791.ts",
+    "endpoint": "/strategist791"
+  },
+  {
+    "handler": "strategist792",
+    "module": "strategist-core/strategist792.ts",
+    "endpoint": "/strategist792"
+  },
+  {
+    "handler": "strategist793",
+    "module": "strategist-core/strategist793.ts",
+    "endpoint": "/strategist793"
+  },
+  {
+    "handler": "strategist794",
+    "module": "strategist-core/strategist794.ts",
+    "endpoint": "/strategist794"
+  },
+  {
+    "handler": "strategist795",
+    "module": "strategist-core/strategist795.ts",
+    "endpoint": "/strategist795"
+  },
+  {
+    "handler": "strategist796",
+    "module": "strategist-core/strategist796.ts",
+    "endpoint": "/strategist796"
+  },
+  {
+    "handler": "strategist797",
+    "module": "strategist-core/strategist797.ts",
+    "endpoint": "/strategist797"
+  },
+  {
+    "handler": "strategist798",
+    "module": "strategist-core/strategist798.ts",
+    "endpoint": "/strategist798"
+  },
+  {
+    "handler": "strategist799",
+    "module": "strategist-core/strategist799.ts",
+    "endpoint": "/strategist799"
+  },
+  {
+    "handler": "strategist8",
+    "module": "strategist-core/strategist8.ts",
+    "endpoint": "/strategist8"
+  },
+  {
+    "handler": "strategist80",
+    "module": "strategist-core/strategist80.ts",
+    "endpoint": "/strategist80"
+  },
+  {
+    "handler": "strategist800",
+    "module": "strategist-core/strategist800.ts",
+    "endpoint": "/strategist800"
+  },
+  {
+    "handler": "strategist801",
+    "module": "strategist-core/strategist801.ts",
+    "endpoint": "/strategist801"
+  },
+  {
+    "handler": "strategist802",
+    "module": "strategist-core/strategist802.ts",
+    "endpoint": "/strategist802"
+  },
+  {
+    "handler": "strategist803",
+    "module": "strategist-core/strategist803.ts",
+    "endpoint": "/strategist803"
+  },
+  {
+    "handler": "strategist804",
+    "module": "strategist-core/strategist804.ts",
+    "endpoint": "/strategist804"
+  },
+  {
+    "handler": "strategist805",
+    "module": "strategist-core/strategist805.ts",
+    "endpoint": "/strategist805"
+  },
+  {
+    "handler": "strategist806",
+    "module": "strategist-core/strategist806.ts",
+    "endpoint": "/strategist806"
+  },
+  {
+    "handler": "strategist807",
+    "module": "strategist-core/strategist807.ts",
+    "endpoint": "/strategist807"
+  },
+  {
+    "handler": "strategist808",
+    "module": "strategist-core/strategist808.ts",
+    "endpoint": "/strategist808"
+  },
+  {
+    "handler": "strategist809",
+    "module": "strategist-core/strategist809.ts",
+    "endpoint": "/strategist809"
+  },
+  {
+    "handler": "strategist81",
+    "module": "strategist-core/strategist81.ts",
+    "endpoint": "/strategist81"
+  },
+  {
+    "handler": "strategist810",
+    "module": "strategist-core/strategist810.ts",
+    "endpoint": "/strategist810"
+  },
+  {
+    "handler": "strategist811",
+    "module": "strategist-core/strategist811.ts",
+    "endpoint": "/strategist811"
+  },
+  {
+    "handler": "strategist812",
+    "module": "strategist-core/strategist812.ts",
+    "endpoint": "/strategist812"
+  },
+  {
+    "handler": "strategist813",
+    "module": "strategist-core/strategist813.ts",
+    "endpoint": "/strategist813"
+  },
+  {
+    "handler": "strategist814",
+    "module": "strategist-core/strategist814.ts",
+    "endpoint": "/strategist814"
+  },
+  {
+    "handler": "strategist815",
+    "module": "strategist-core/strategist815.ts",
+    "endpoint": "/strategist815"
+  },
+  {
+    "handler": "strategist816",
+    "module": "strategist-core/strategist816.ts",
+    "endpoint": "/strategist816"
+  },
+  {
+    "handler": "strategist817",
+    "module": "strategist-core/strategist817.ts",
+    "endpoint": "/strategist817"
+  },
+  {
+    "handler": "strategist818",
+    "module": "strategist-core/strategist818.ts",
+    "endpoint": "/strategist818"
+  },
+  {
+    "handler": "strategist819",
+    "module": "strategist-core/strategist819.ts",
+    "endpoint": "/strategist819"
+  },
+  {
+    "handler": "strategist82",
+    "module": "strategist-core/strategist82.ts",
+    "endpoint": "/strategist82"
+  },
+  {
+    "handler": "strategist820",
+    "module": "strategist-core/strategist820.ts",
+    "endpoint": "/strategist820"
+  },
+  {
+    "handler": "strategist821",
+    "module": "strategist-core/strategist821.ts",
+    "endpoint": "/strategist821"
+  },
+  {
+    "handler": "strategist822",
+    "module": "strategist-core/strategist822.ts",
+    "endpoint": "/strategist822"
+  },
+  {
+    "handler": "strategist823",
+    "module": "strategist-core/strategist823.ts",
+    "endpoint": "/strategist823"
+  },
+  {
+    "handler": "strategist824",
+    "module": "strategist-core/strategist824.ts",
+    "endpoint": "/strategist824"
+  },
+  {
+    "handler": "strategist825",
+    "module": "strategist-core/strategist825.ts",
+    "endpoint": "/strategist825"
+  },
+  {
+    "handler": "strategist826",
+    "module": "strategist-core/strategist826.ts",
+    "endpoint": "/strategist826"
+  },
+  {
+    "handler": "strategist827",
+    "module": "strategist-core/strategist827.ts",
+    "endpoint": "/strategist827"
+  },
+  {
+    "handler": "strategist828",
+    "module": "strategist-core/strategist828.ts",
+    "endpoint": "/strategist828"
+  },
+  {
+    "handler": "strategist829",
+    "module": "strategist-core/strategist829.ts",
+    "endpoint": "/strategist829"
+  },
+  {
+    "handler": "strategist83",
+    "module": "strategist-core/strategist83.ts",
+    "endpoint": "/strategist83"
+  },
+  {
+    "handler": "strategist830",
+    "module": "strategist-core/strategist830.ts",
+    "endpoint": "/strategist830"
+  },
+  {
+    "handler": "strategist831",
+    "module": "strategist-core/strategist831.ts",
+    "endpoint": "/strategist831"
+  },
+  {
+    "handler": "strategist832",
+    "module": "strategist-core/strategist832.ts",
+    "endpoint": "/strategist832"
+  },
+  {
+    "handler": "strategist833",
+    "module": "strategist-core/strategist833.ts",
+    "endpoint": "/strategist833"
+  },
+  {
+    "handler": "strategist834",
+    "module": "strategist-core/strategist834.ts",
+    "endpoint": "/strategist834"
+  },
+  {
+    "handler": "strategist835",
+    "module": "strategist-core/strategist835.ts",
+    "endpoint": "/strategist835"
+  },
+  {
+    "handler": "strategist836",
+    "module": "strategist-core/strategist836.ts",
+    "endpoint": "/strategist836"
+  },
+  {
+    "handler": "strategist837",
+    "module": "strategist-core/strategist837.ts",
+    "endpoint": "/strategist837"
+  },
+  {
+    "handler": "strategist838",
+    "module": "strategist-core/strategist838.ts",
+    "endpoint": "/strategist838"
+  },
+  {
+    "handler": "strategist839",
+    "module": "strategist-core/strategist839.ts",
+    "endpoint": "/strategist839"
+  },
+  {
+    "handler": "strategist84",
+    "module": "strategist-core/strategist84.ts",
+    "endpoint": "/strategist84"
+  },
+  {
+    "handler": "strategist840",
+    "module": "strategist-core/strategist840.ts",
+    "endpoint": "/strategist840"
+  },
+  {
+    "handler": "strategist841",
+    "module": "strategist-core/strategist841.ts",
+    "endpoint": "/strategist841"
+  },
+  {
+    "handler": "strategist842",
+    "module": "strategist-core/strategist842.ts",
+    "endpoint": "/strategist842"
+  },
+  {
+    "handler": "strategist843",
+    "module": "strategist-core/strategist843.ts",
+    "endpoint": "/strategist843"
+  },
+  {
+    "handler": "strategist844",
+    "module": "strategist-core/strategist844.ts",
+    "endpoint": "/strategist844"
+  },
+  {
+    "handler": "strategist845",
+    "module": "strategist-core/strategist845.ts",
+    "endpoint": "/strategist845"
+  },
+  {
+    "handler": "strategist846",
+    "module": "strategist-core/strategist846.ts",
+    "endpoint": "/strategist846"
+  },
+  {
+    "handler": "strategist847",
+    "module": "strategist-core/strategist847.ts",
+    "endpoint": "/strategist847"
+  },
+  {
+    "handler": "strategist848",
+    "module": "strategist-core/strategist848.ts",
+    "endpoint": "/strategist848"
+  },
+  {
+    "handler": "strategist849",
+    "module": "strategist-core/strategist849.ts",
+    "endpoint": "/strategist849"
+  },
+  {
+    "handler": "strategist85",
+    "module": "strategist-core/strategist85.ts",
+    "endpoint": "/strategist85"
+  },
+  {
+    "handler": "strategist850",
+    "module": "strategist-core/strategist850.ts",
+    "endpoint": "/strategist850"
+  },
+  {
+    "handler": "strategist851",
+    "module": "strategist-core/strategist851.ts",
+    "endpoint": "/strategist851"
+  },
+  {
+    "handler": "strategist852",
+    "module": "strategist-core/strategist852.ts",
+    "endpoint": "/strategist852"
+  },
+  {
+    "handler": "strategist853",
+    "module": "strategist-core/strategist853.ts",
+    "endpoint": "/strategist853"
+  },
+  {
+    "handler": "strategist854",
+    "module": "strategist-core/strategist854.ts",
+    "endpoint": "/strategist854"
+  },
+  {
+    "handler": "strategist855",
+    "module": "strategist-core/strategist855.ts",
+    "endpoint": "/strategist855"
+  },
+  {
+    "handler": "strategist856",
+    "module": "strategist-core/strategist856.ts",
+    "endpoint": "/strategist856"
+  },
+  {
+    "handler": "strategist857",
+    "module": "strategist-core/strategist857.ts",
+    "endpoint": "/strategist857"
+  },
+  {
+    "handler": "strategist858",
+    "module": "strategist-core/strategist858.ts",
+    "endpoint": "/strategist858"
+  },
+  {
+    "handler": "strategist859",
+    "module": "strategist-core/strategist859.ts",
+    "endpoint": "/strategist859"
+  },
+  {
+    "handler": "strategist86",
+    "module": "strategist-core/strategist86.ts",
+    "endpoint": "/strategist86"
+  },
+  {
+    "handler": "strategist860",
+    "module": "strategist-core/strategist860.ts",
+    "endpoint": "/strategist860"
+  },
+  {
+    "handler": "strategist861",
+    "module": "strategist-core/strategist861.ts",
+    "endpoint": "/strategist861"
+  },
+  {
+    "handler": "strategist862",
+    "module": "strategist-core/strategist862.ts",
+    "endpoint": "/strategist862"
+  },
+  {
+    "handler": "strategist863",
+    "module": "strategist-core/strategist863.ts",
+    "endpoint": "/strategist863"
+  },
+  {
+    "handler": "strategist864",
+    "module": "strategist-core/strategist864.ts",
+    "endpoint": "/strategist864"
+  },
+  {
+    "handler": "strategist865",
+    "module": "strategist-core/strategist865.ts",
+    "endpoint": "/strategist865"
+  },
+  {
+    "handler": "strategist866",
+    "module": "strategist-core/strategist866.ts",
+    "endpoint": "/strategist866"
+  },
+  {
+    "handler": "strategist867",
+    "module": "strategist-core/strategist867.ts",
+    "endpoint": "/strategist867"
+  },
+  {
+    "handler": "strategist868",
+    "module": "strategist-core/strategist868.ts",
+    "endpoint": "/strategist868"
+  },
+  {
+    "handler": "strategist869",
+    "module": "strategist-core/strategist869.ts",
+    "endpoint": "/strategist869"
+  },
+  {
+    "handler": "strategist87",
+    "module": "strategist-core/strategist87.ts",
+    "endpoint": "/strategist87"
+  },
+  {
+    "handler": "strategist870",
+    "module": "strategist-core/strategist870.ts",
+    "endpoint": "/strategist870"
+  },
+  {
+    "handler": "strategist871",
+    "module": "strategist-core/strategist871.ts",
+    "endpoint": "/strategist871"
+  },
+  {
+    "handler": "strategist872",
+    "module": "strategist-core/strategist872.ts",
+    "endpoint": "/strategist872"
+  },
+  {
+    "handler": "strategist873",
+    "module": "strategist-core/strategist873.ts",
+    "endpoint": "/strategist873"
+  },
+  {
+    "handler": "strategist874",
+    "module": "strategist-core/strategist874.ts",
+    "endpoint": "/strategist874"
+  },
+  {
+    "handler": "strategist875",
+    "module": "strategist-core/strategist875.ts",
+    "endpoint": "/strategist875"
+  },
+  {
+    "handler": "strategist876",
+    "module": "strategist-core/strategist876.ts",
+    "endpoint": "/strategist876"
+  },
+  {
+    "handler": "strategist877",
+    "module": "strategist-core/strategist877.ts",
+    "endpoint": "/strategist877"
+  },
+  {
+    "handler": "strategist878",
+    "module": "strategist-core/strategist878.ts",
+    "endpoint": "/strategist878"
+  },
+  {
+    "handler": "strategist879",
+    "module": "strategist-core/strategist879.ts",
+    "endpoint": "/strategist879"
+  },
+  {
+    "handler": "strategist88",
+    "module": "strategist-core/strategist88.ts",
+    "endpoint": "/strategist88"
+  },
+  {
+    "handler": "strategist880",
+    "module": "strategist-core/strategist880.ts",
+    "endpoint": "/strategist880"
+  },
+  {
+    "handler": "strategist881",
+    "module": "strategist-core/strategist881.ts",
+    "endpoint": "/strategist881"
+  },
+  {
+    "handler": "strategist882",
+    "module": "strategist-core/strategist882.ts",
+    "endpoint": "/strategist882"
+  },
+  {
+    "handler": "strategist883",
+    "module": "strategist-core/strategist883.ts",
+    "endpoint": "/strategist883"
+  },
+  {
+    "handler": "strategist884",
+    "module": "strategist-core/strategist884.ts",
+    "endpoint": "/strategist884"
+  },
+  {
+    "handler": "strategist885",
+    "module": "strategist-core/strategist885.ts",
+    "endpoint": "/strategist885"
+  },
+  {
+    "handler": "strategist886",
+    "module": "strategist-core/strategist886.ts",
+    "endpoint": "/strategist886"
+  },
+  {
+    "handler": "strategist887",
+    "module": "strategist-core/strategist887.ts",
+    "endpoint": "/strategist887"
+  },
+  {
+    "handler": "strategist888",
+    "module": "strategist-core/strategist888.ts",
+    "endpoint": "/strategist888"
+  },
+  {
+    "handler": "strategist889",
+    "module": "strategist-core/strategist889.ts",
+    "endpoint": "/strategist889"
+  },
+  {
+    "handler": "strategist89",
+    "module": "strategist-core/strategist89.ts",
+    "endpoint": "/strategist89"
+  },
+  {
+    "handler": "strategist890",
+    "module": "strategist-core/strategist890.ts",
+    "endpoint": "/strategist890"
+  },
+  {
+    "handler": "strategist891",
+    "module": "strategist-core/strategist891.ts",
+    "endpoint": "/strategist891"
+  },
+  {
+    "handler": "strategist892",
+    "module": "strategist-core/strategist892.ts",
+    "endpoint": "/strategist892"
+  },
+  {
+    "handler": "strategist893",
+    "module": "strategist-core/strategist893.ts",
+    "endpoint": "/strategist893"
+  },
+  {
+    "handler": "strategist894",
+    "module": "strategist-core/strategist894.ts",
+    "endpoint": "/strategist894"
+  },
+  {
+    "handler": "strategist895",
+    "module": "strategist-core/strategist895.ts",
+    "endpoint": "/strategist895"
+  },
+  {
+    "handler": "strategist896",
+    "module": "strategist-core/strategist896.ts",
+    "endpoint": "/strategist896"
+  },
+  {
+    "handler": "strategist897",
+    "module": "strategist-core/strategist897.ts",
+    "endpoint": "/strategist897"
+  },
+  {
+    "handler": "strategist898",
+    "module": "strategist-core/strategist898.ts",
+    "endpoint": "/strategist898"
+  },
+  {
+    "handler": "strategist899",
+    "module": "strategist-core/strategist899.ts",
+    "endpoint": "/strategist899"
+  },
+  {
+    "handler": "strategist9",
+    "module": "strategist-core/strategist9.ts",
+    "endpoint": "/strategist9"
+  },
+  {
+    "handler": "strategist90",
+    "module": "strategist-core/strategist90.ts",
+    "endpoint": "/strategist90"
+  },
+  {
+    "handler": "strategist900",
+    "module": "strategist-core/strategist900.ts",
+    "endpoint": "/strategist900"
+  },
+  {
+    "handler": "strategist901",
+    "module": "strategist-core/strategist901.ts",
+    "endpoint": "/strategist901"
+  },
+  {
+    "handler": "strategist902",
+    "module": "strategist-core/strategist902.ts",
+    "endpoint": "/strategist902"
+  },
+  {
+    "handler": "strategist903",
+    "module": "strategist-core/strategist903.ts",
+    "endpoint": "/strategist903"
+  },
+  {
+    "handler": "strategist904",
+    "module": "strategist-core/strategist904.ts",
+    "endpoint": "/strategist904"
+  },
+  {
+    "handler": "strategist905",
+    "module": "strategist-core/strategist905.ts",
+    "endpoint": "/strategist905"
+  },
+  {
+    "handler": "strategist906",
+    "module": "strategist-core/strategist906.ts",
+    "endpoint": "/strategist906"
+  },
+  {
+    "handler": "strategist907",
+    "module": "strategist-core/strategist907.ts",
+    "endpoint": "/strategist907"
+  },
+  {
+    "handler": "strategist908",
+    "module": "strategist-core/strategist908.ts",
+    "endpoint": "/strategist908"
+  },
+  {
+    "handler": "strategist909",
+    "module": "strategist-core/strategist909.ts",
+    "endpoint": "/strategist909"
+  },
+  {
+    "handler": "strategist91",
+    "module": "strategist-core/strategist91.ts",
+    "endpoint": "/strategist91"
+  },
+  {
+    "handler": "strategist910",
+    "module": "strategist-core/strategist910.ts",
+    "endpoint": "/strategist910"
+  },
+  {
+    "handler": "strategist911",
+    "module": "strategist-core/strategist911.ts",
+    "endpoint": "/strategist911"
+  },
+  {
+    "handler": "strategist912",
+    "module": "strategist-core/strategist912.ts",
+    "endpoint": "/strategist912"
+  },
+  {
+    "handler": "strategist913",
+    "module": "strategist-core/strategist913.ts",
+    "endpoint": "/strategist913"
+  },
+  {
+    "handler": "strategist914",
+    "module": "strategist-core/strategist914.ts",
+    "endpoint": "/strategist914"
+  },
+  {
+    "handler": "strategist915",
+    "module": "strategist-core/strategist915.ts",
+    "endpoint": "/strategist915"
+  },
+  {
+    "handler": "strategist916",
+    "module": "strategist-core/strategist916.ts",
+    "endpoint": "/strategist916"
+  },
+  {
+    "handler": "strategist917",
+    "module": "strategist-core/strategist917.ts",
+    "endpoint": "/strategist917"
+  },
+  {
+    "handler": "strategist918",
+    "module": "strategist-core/strategist918.ts",
+    "endpoint": "/strategist918"
+  },
+  {
+    "handler": "strategist919",
+    "module": "strategist-core/strategist919.ts",
+    "endpoint": "/strategist919"
+  },
+  {
+    "handler": "strategist92",
+    "module": "strategist-core/strategist92.ts",
+    "endpoint": "/strategist92"
+  },
+  {
+    "handler": "strategist920",
+    "module": "strategist-core/strategist920.ts",
+    "endpoint": "/strategist920"
+  },
+  {
+    "handler": "strategist921",
+    "module": "strategist-core/strategist921.ts",
+    "endpoint": "/strategist921"
+  },
+  {
+    "handler": "strategist922",
+    "module": "strategist-core/strategist922.ts",
+    "endpoint": "/strategist922"
+  },
+  {
+    "handler": "strategist923",
+    "module": "strategist-core/strategist923.ts",
+    "endpoint": "/strategist923"
+  },
+  {
+    "handler": "strategist924",
+    "module": "strategist-core/strategist924.ts",
+    "endpoint": "/strategist924"
+  },
+  {
+    "handler": "strategist925",
+    "module": "strategist-core/strategist925.ts",
+    "endpoint": "/strategist925"
+  },
+  {
+    "handler": "strategist926",
+    "module": "strategist-core/strategist926.ts",
+    "endpoint": "/strategist926"
+  },
+  {
+    "handler": "strategist927",
+    "module": "strategist-core/strategist927.ts",
+    "endpoint": "/strategist927"
+  },
+  {
+    "handler": "strategist928",
+    "module": "strategist-core/strategist928.ts",
+    "endpoint": "/strategist928"
+  },
+  {
+    "handler": "strategist929",
+    "module": "strategist-core/strategist929.ts",
+    "endpoint": "/strategist929"
+  },
+  {
+    "handler": "strategist93",
+    "module": "strategist-core/strategist93.ts",
+    "endpoint": "/strategist93"
+  },
+  {
+    "handler": "strategist930",
+    "module": "strategist-core/strategist930.ts",
+    "endpoint": "/strategist930"
+  },
+  {
+    "handler": "strategist931",
+    "module": "strategist-core/strategist931.ts",
+    "endpoint": "/strategist931"
+  },
+  {
+    "handler": "strategist932",
+    "module": "strategist-core/strategist932.ts",
+    "endpoint": "/strategist932"
+  },
+  {
+    "handler": "strategist933",
+    "module": "strategist-core/strategist933.ts",
+    "endpoint": "/strategist933"
+  },
+  {
+    "handler": "strategist934",
+    "module": "strategist-core/strategist934.ts",
+    "endpoint": "/strategist934"
+  },
+  {
+    "handler": "strategist935",
+    "module": "strategist-core/strategist935.ts",
+    "endpoint": "/strategist935"
+  },
+  {
+    "handler": "strategist936",
+    "module": "strategist-core/strategist936.ts",
+    "endpoint": "/strategist936"
+  },
+  {
+    "handler": "strategist937",
+    "module": "strategist-core/strategist937.ts",
+    "endpoint": "/strategist937"
+  },
+  {
+    "handler": "strategist938",
+    "module": "strategist-core/strategist938.ts",
+    "endpoint": "/strategist938"
+  },
+  {
+    "handler": "strategist939",
+    "module": "strategist-core/strategist939.ts",
+    "endpoint": "/strategist939"
+  },
+  {
+    "handler": "strategist94",
+    "module": "strategist-core/strategist94.ts",
+    "endpoint": "/strategist94"
+  },
+  {
+    "handler": "strategist940",
+    "module": "strategist-core/strategist940.ts",
+    "endpoint": "/strategist940"
+  },
+  {
+    "handler": "strategist941",
+    "module": "strategist-core/strategist941.ts",
+    "endpoint": "/strategist941"
+  },
+  {
+    "handler": "strategist942",
+    "module": "strategist-core/strategist942.ts",
+    "endpoint": "/strategist942"
+  },
+  {
+    "handler": "strategist943",
+    "module": "strategist-core/strategist943.ts",
+    "endpoint": "/strategist943"
+  },
+  {
+    "handler": "strategist944",
+    "module": "strategist-core/strategist944.ts",
+    "endpoint": "/strategist944"
+  },
+  {
+    "handler": "strategist945",
+    "module": "strategist-core/strategist945.ts",
+    "endpoint": "/strategist945"
+  },
+  {
+    "handler": "strategist946",
+    "module": "strategist-core/strategist946.ts",
+    "endpoint": "/strategist946"
+  },
+  {
+    "handler": "strategist947",
+    "module": "strategist-core/strategist947.ts",
+    "endpoint": "/strategist947"
+  },
+  {
+    "handler": "strategist948",
+    "module": "strategist-core/strategist948.ts",
+    "endpoint": "/strategist948"
+  },
+  {
+    "handler": "strategist949",
+    "module": "strategist-core/strategist949.ts",
+    "endpoint": "/strategist949"
+  },
+  {
+    "handler": "strategist95",
+    "module": "strategist-core/strategist95.ts",
+    "endpoint": "/strategist95"
+  },
+  {
+    "handler": "strategist950",
+    "module": "strategist-core/strategist950.ts",
+    "endpoint": "/strategist950"
+  },
+  {
+    "handler": "strategist951",
+    "module": "strategist-core/strategist951.ts",
+    "endpoint": "/strategist951"
+  },
+  {
+    "handler": "strategist952",
+    "module": "strategist-core/strategist952.ts",
+    "endpoint": "/strategist952"
+  },
+  {
+    "handler": "strategist953",
+    "module": "strategist-core/strategist953.ts",
+    "endpoint": "/strategist953"
+  },
+  {
+    "handler": "strategist954",
+    "module": "strategist-core/strategist954.ts",
+    "endpoint": "/strategist954"
+  },
+  {
+    "handler": "strategist955",
+    "module": "strategist-core/strategist955.ts",
+    "endpoint": "/strategist955"
+  },
+  {
+    "handler": "strategist956",
+    "module": "strategist-core/strategist956.ts",
+    "endpoint": "/strategist956"
+  },
+  {
+    "handler": "strategist957",
+    "module": "strategist-core/strategist957.ts",
+    "endpoint": "/strategist957"
+  },
+  {
+    "handler": "strategist958",
+    "module": "strategist-core/strategist958.ts",
+    "endpoint": "/strategist958"
+  },
+  {
+    "handler": "strategist959",
+    "module": "strategist-core/strategist959.ts",
+    "endpoint": "/strategist959"
+  },
+  {
+    "handler": "strategist96",
+    "module": "strategist-core/strategist96.ts",
+    "endpoint": "/strategist96"
+  },
+  {
+    "handler": "strategist960",
+    "module": "strategist-core/strategist960.ts",
+    "endpoint": "/strategist960"
+  },
+  {
+    "handler": "strategist961",
+    "module": "strategist-core/strategist961.ts",
+    "endpoint": "/strategist961"
+  },
+  {
+    "handler": "strategist962",
+    "module": "strategist-core/strategist962.ts",
+    "endpoint": "/strategist962"
+  },
+  {
+    "handler": "strategist963",
+    "module": "strategist-core/strategist963.ts",
+    "endpoint": "/strategist963"
+  },
+  {
+    "handler": "strategist964",
+    "module": "strategist-core/strategist964.ts",
+    "endpoint": "/strategist964"
+  },
+  {
+    "handler": "strategist965",
+    "module": "strategist-core/strategist965.ts",
+    "endpoint": "/strategist965"
+  },
+  {
+    "handler": "strategist966",
+    "module": "strategist-core/strategist966.ts",
+    "endpoint": "/strategist966"
+  },
+  {
+    "handler": "strategist967",
+    "module": "strategist-core/strategist967.ts",
+    "endpoint": "/strategist967"
+  },
+  {
+    "handler": "strategist968",
+    "module": "strategist-core/strategist968.ts",
+    "endpoint": "/strategist968"
+  },
+  {
+    "handler": "strategist969",
+    "module": "strategist-core/strategist969.ts",
+    "endpoint": "/strategist969"
+  },
+  {
+    "handler": "strategist97",
+    "module": "strategist-core/strategist97.ts",
+    "endpoint": "/strategist97"
+  },
+  {
+    "handler": "strategist970",
+    "module": "strategist-core/strategist970.ts",
+    "endpoint": "/strategist970"
+  },
+  {
+    "handler": "strategist971",
+    "module": "strategist-core/strategist971.ts",
+    "endpoint": "/strategist971"
+  },
+  {
+    "handler": "strategist972",
+    "module": "strategist-core/strategist972.ts",
+    "endpoint": "/strategist972"
+  },
+  {
+    "handler": "strategist973",
+    "module": "strategist-core/strategist973.ts",
+    "endpoint": "/strategist973"
+  },
+  {
+    "handler": "strategist974",
+    "module": "strategist-core/strategist974.ts",
+    "endpoint": "/strategist974"
+  },
+  {
+    "handler": "strategist975",
+    "module": "strategist-core/strategist975.ts",
+    "endpoint": "/strategist975"
+  },
+  {
+    "handler": "strategist976",
+    "module": "strategist-core/strategist976.ts",
+    "endpoint": "/strategist976"
+  },
+  {
+    "handler": "strategist977",
+    "module": "strategist-core/strategist977.ts",
+    "endpoint": "/strategist977"
+  },
+  {
+    "handler": "strategist978",
+    "module": "strategist-core/strategist978.ts",
+    "endpoint": "/strategist978"
+  },
+  {
+    "handler": "strategist979",
+    "module": "strategist-core/strategist979.ts",
+    "endpoint": "/strategist979"
+  },
+  {
+    "handler": "strategist98",
+    "module": "strategist-core/strategist98.ts",
+    "endpoint": "/strategist98"
+  },
+  {
+    "handler": "strategist980",
+    "module": "strategist-core/strategist980.ts",
+    "endpoint": "/strategist980"
+  },
+  {
+    "handler": "strategist981",
+    "module": "strategist-core/strategist981.ts",
+    "endpoint": "/strategist981"
+  },
+  {
+    "handler": "strategist982",
+    "module": "strategist-core/strategist982.ts",
+    "endpoint": "/strategist982"
+  },
+  {
+    "handler": "strategist983",
+    "module": "strategist-core/strategist983.ts",
+    "endpoint": "/strategist983"
+  },
+  {
+    "handler": "strategist984",
+    "module": "strategist-core/strategist984.ts",
+    "endpoint": "/strategist984"
+  },
+  {
+    "handler": "strategist985",
+    "module": "strategist-core/strategist985.ts",
+    "endpoint": "/strategist985"
+  },
+  {
+    "handler": "strategist986",
+    "module": "strategist-core/strategist986.ts",
+    "endpoint": "/strategist986"
+  },
+  {
+    "handler": "strategist987",
+    "module": "strategist-core/strategist987.ts",
+    "endpoint": "/strategist987"
+  },
+  {
+    "handler": "strategist988",
+    "module": "strategist-core/strategist988.ts",
+    "endpoint": "/strategist988"
+  },
+  {
+    "handler": "strategist989",
+    "module": "strategist-core/strategist989.ts",
+    "endpoint": "/strategist989"
+  },
+  {
+    "handler": "strategist99",
+    "module": "strategist-core/strategist99.ts",
+    "endpoint": "/strategist99"
+  },
+  {
+    "handler": "strategist990",
+    "module": "strategist-core/strategist990.ts",
+    "endpoint": "/strategist990"
+  },
+  {
+    "handler": "strategist991",
+    "module": "strategist-core/strategist991.ts",
+    "endpoint": "/strategist991"
+  },
+  {
+    "handler": "strategist992",
+    "module": "strategist-core/strategist992.ts",
+    "endpoint": "/strategist992"
+  },
+  {
+    "handler": "strategist993",
+    "module": "strategist-core/strategist993.ts",
+    "endpoint": "/strategist993"
+  },
+  {
+    "handler": "strategist994",
+    "module": "strategist-core/strategist994.ts",
+    "endpoint": "/strategist994"
+  },
+  {
+    "handler": "strategist995",
+    "module": "strategist-core/strategist995.ts",
+    "endpoint": "/strategist995"
+  },
+  {
+    "handler": "strategist996",
+    "module": "strategist-core/strategist996.ts",
+    "endpoint": "/strategist996"
+  },
+  {
+    "handler": "strategist997",
+    "module": "strategist-core/strategist997.ts",
+    "endpoint": "/strategist997"
+  },
+  {
+    "handler": "strategist998",
+    "module": "strategist-core/strategist998.ts",
+    "endpoint": "/strategist998"
+  },
+  {
+    "handler": "strategist999",
+    "module": "strategist-core/strategist999.ts",
+    "endpoint": "/strategist999"
+  },
+  {
+    "handler": "vaultHandler",
+    "module": "strategist-core/vaultHandler.ts",
+    "endpoint": "/vault-handler"
+  },
+  {
+    "handler": "voteEngine",
+    "module": "strategist-core/voteEngine.ts",
+    "endpoint": "/vote-engine"
+  },
+  {
+    "handler": "zeroizationWatch",
+    "module": "strategist-core/zeroizationWatch.ts",
+    "endpoint": "/zeroization-watch"
+  }
+]
