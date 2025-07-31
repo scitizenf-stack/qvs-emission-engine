@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "strategistai-101"
-  }
+    "default": "strategistai-101",
+    "thinair": "strategistcore-9a367"
+  },
+  "targets": {},
+  "etags": {}
 }

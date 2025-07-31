@@ -1,33 +1,16 @@
 {
-  "functions": [
-    {
-      "source": "functions",
-      "codebase": "default",
-      "ignore": [
-        "node_modules",
-        ".git",
-        "firebase-debug.log",
-        "firebase-debug.*.log",
-        "*.local"
-      ],
-      "predeploy": [
-        "npm --prefix \"$RESOURCE_DIR\" run lint",
-        "npm --prefix \"$RESOURCE_DIR\" run build"
-      ]
-    }
-  ],
   "hosting": {
-    "public": "no",
+    "public": "public", // Directory to serve static assets
     "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+      "firebase.json",       // Ignore the config file itself
+      "**/.*",               // Ignore hidden files
+      "**/node_modules/**"   // Ignore Node.js dependencies
     ]
+  },
+  "functions": {
+    "source": "functions" // Location of Cloud Functions code
+  },
+  "firestore": {
+    "rules": "firestore.rules" // Path to Firestore security rules
   }
 }

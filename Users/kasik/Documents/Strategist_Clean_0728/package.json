@@ -1,7 +1,35 @@
 {
+  "name": "strategist-services-core",
+  "version": "1.0.0",
+  "description": "Mesh-based strategist orchestration tools for vault routing and pulse payments",
+  "type": "module",
+  "main": "early-pulse.js",
+  "bin": {
+    "pulse": "services/compiled.js"
+  },
+  "scripts": {
+    "start": "node early-pulse.js",
+    "build": "esbuild services/StrategistPulse.tsx --bundle --platform=node --outfile=services/compiled.js",
+    "pulse": "node services/compiled.js"
+  },
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "express": "^5.1.0",
-    "ws": "^8.18.3"
-  }
+    "body-parser": "^1.20.2",
+    "ethereumjs-util": "^7.1.3",
+    "express": "^4.18.2",
+    "ink": "^6.1.0",
+    "react": "^19.1.1",
+    "stripe": "^12.0.0"
+  },
+  "keywords": [
+    "strategist",
+    "mesh",
+    "vault",
+    "payments",
+    "pulse",
+    "CLI",
+    "Copilot",
+    "routing"
+  ],
+  "author": "Strategist Ops",
+  "license": "MIT"
 }
