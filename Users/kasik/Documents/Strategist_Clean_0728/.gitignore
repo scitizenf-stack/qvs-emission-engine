@@ -67,3 +67,10 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+*/.Bin/
+*/AppData/
+*.log
+*.zip
+*.sys
+*.tmp
+.DS_Store
