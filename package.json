@@ -1,0 +1,11 @@
+{
+  "name": "qvs-emission-engine",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test"
+  },
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.28.0"
+  }
+}

@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+      - name: Install Solana CLI
+        run: |
+          curl -sSfL https://release.solana.com/stable/install | sh -s
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+          solana --version
+      - name: Install Anchor
+        run: |
+          cargo install --git https://github.com/coral-xyz/anchor anchor-cli --locked || true
+          anchor --version
+      - name: Start solana-test-validator
+        run: |
+          solana-test-validator --reset &
+          sleep 5
+      - name: Build
+        run: anchor build
+      - name: Run tests
+        run: anchor test
