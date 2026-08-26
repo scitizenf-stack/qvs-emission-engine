@@ -1,7 +1,11 @@
+mod halving;
+
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Mint, MintTo, Token, TokenAccount};
 
-declare_id!("11111111111111111111111111111111");
+use crate::halving::next_emission_amount;
+
+declare_id!("6pw4r97FHFyTsqC5Z7NHYA278i4HgWjK16wmrxWgTXe2");
 
 #[program]
 pub mod qvs_token_engine {
@@ -11,7 +15,7 @@ pub mod qvs_token_engine {
         let state = &mut ctx.accounts.global_state;
         state.genesis_timestamp = Clock::get()?.unix_timestamp;
         state.total_emitted = 0u128;
-        state.bump = *ctx.bumps.get("global-state").unwrap();
+        state.bump = ctx.bumps.global_state;
         state.paused = false;
         state.max_emission_pool = 20_000_000_000u128.checked_mul(1_000_000_000u128).unwrap();
         state.governance = ctx.accounts.authority.key();
@@ -21,20 +25,25 @@ pub mod qvs_token_engine {
 
     pub fn emit(ctx: Context<Emit>) -> Result<()> {
         require!(!ctx.accounts.global_state.paused, ErrorCode::Paused);
-        // Example mint: 1 token (1e9 native units) for testing
-        let amount: u64 = 1_000_000_000;
-        let bump = ctx.accounts.global_state.bump;
-        let seeds = &[b"global-state".as_ref(), &[bump]];
-        let signer = &[&seeds[..]];
+
+        let now = Clock::get()?.unix_timestamp;
+        let amount = next_emission_amount(ctx.accounts.global_state.genesis_timestamp, now);
+        require!(amount > 0, ErrorCode::NoTimeElapsed);
+
         let cpi_accounts = MintTo {
             mint: ctx.accounts.token_mint.to_account_info(),
             to: ctx.accounts.destination.to_account_info(),
-            authority: ctx.accounts.global_state.to_account_info(),
+            authority: ctx.accounts.authority.to_account_info(),
         };
         let cpi_program = ctx.accounts.token_program.to_account_info();
-        let cpi_ctx = CpiContext::new_with_signer(cpi_program, cpi_accounts, signer);
-        token::mint_to(cpi_ctx, amount)?;
-        ctx.accounts.global_state.total_emitted = ctx.accounts.global_state.total_emitted.checked_add(amount as u128).unwrap();
+        let cpi_ctx = CpiContext::new(cpi_program.key(), cpi_accounts);
+        token::mint_to(cpi_ctx, amount as u64)?;
+        ctx.accounts.global_state.total_emitted = ctx
+            .accounts
+            .global_state
+            .total_emitted
+            .checked_add(amount)
+            .ok_or(ErrorCode::MathOverflow)?;
         msg!("Minted {} native units", amount);
         Ok(())
     }
@@ -67,6 +76,8 @@ pub struct Emit<'info> {
     pub token_mint: Account<'info, Mint>,
     #[account(mut)]
     pub destination: Account<'info, TokenAccount>,
+    #[account(mut)]
+    pub authority: Signer<'info>,
     pub token_program: Program<'info, Token>,
 }
 

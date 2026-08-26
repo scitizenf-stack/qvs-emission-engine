@@ -24,6 +24,7 @@ describe("qvs_token_engine", () => {
       globalState: globalStatePda,
       tokenMint: mint,
       destination: dest,
+      authority: pg.wallet.publicKey,
       tokenProgram: anchor.spl.Token.TOKEN_PROGRAM_ID,
     }).rpc();
 

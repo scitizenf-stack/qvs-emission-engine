@@ -1,9 +1,18 @@
-[programs.devnet]
-qvs_token_engine = "11111111111111111111111111111111"
+[toolchain]
+anchor_version = "1.1.2"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+qvs_emission_engine = "6pw4r97FHFyTsqC5Z7NHYA278i4HgWjK16wmrxWgTXe2"
 
 [provider]
-cluster = "devnet"
-wallet = "~/.config/solana/id.json"
+cluster = "localnet"
+wallet = "C:/Users/kasik/.config/solana/id.json"
 
 [scripts]
 test = "anchor test"
+
+[hooks]
