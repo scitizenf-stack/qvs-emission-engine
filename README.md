@@ -25,6 +25,21 @@ $env:ANCHOR_PROVIDER_URL = "http://127.0.0.1:8899"
 anchor test
 ```
 
+## Phase 1 devnet flow
+
+```bash
+# 1) create mint and destination account
+./scripts/create_mint.sh
+# note MINT_ADDRESS and DEST_ACCOUNT
+
+# 2) mint genesis supply
+./scripts/mint_genesis.sh <MINT_ADDRESS> <DEST_ACCOUNT>
+
+# 3) compute the PDA and print the authority-transfer command
+node scripts/transfer_authority.js <PROGRAM_ID> <MINT_ADDRESS>
+# run the printed `spl-token authorize ...` command
+```
+
 ## Client scripts
 
 ```powershell
@@ -33,4 +48,4 @@ node scripts/emit.js
 node scripts/read_state.js
 ```
 
-See [docs/DEVELOPER.md](docs/DEVELOPER.md) for the emission math and deployment steps.
+See [docs/DEVELOPER.md](docs/DEVELOPER.md) and [docs/OPERATION.md](docs/OPERATION.md) for the emission math, deployment steps, and devnet/localnet checklist.
