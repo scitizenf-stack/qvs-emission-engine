@@ -2,9 +2,9 @@ name: Anchor CI
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   push:
-    branches: [ fix/ci-anchor-tests ]
+    branches: [ 'fix/**', 'fix/ci-anchor-tests-rebased' ]
 
 jobs:
   test:
@@ -33,14 +33,14 @@ jobs:
       - name: Install Solana CLI
         run: |
           curl -sSfL https://release.solana.com/v1.18.25/install/solana-install-init.sh | sh -s - v1.18.25
-          echo "::add-path::$HOME/.local/share/solana/install/active_release/bin"
+          echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
           export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
           solana --version
 
-      - name: Install Anchor CLI (try common packages)
+      - name: Install Anchor CLI
         run: |
-          npm install -g @coral-xyz/anchor@1.1.2 || true
-          npm install -g @coral-xyz/anchor-cli@1.1.2 || true
+          # Install the anchor-cli via cargo for a reproducible, versioned binary
+          cargo install --locked --force anchor-cli --version 1.1.2 || true
           anchor --version || true
 
       - name: Install Node deps
@@ -55,7 +55,8 @@ jobs:
       - name: Run Anchor tests (full integration)
         run: |
           export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
-          anchor test -- --nocapture
+          # Capture test output so it can be uploaded on failure
+          anchor test -- --nocapture 2>&1 | tee /tmp/anchor-test.log
 
       - name: Upload logs
         if: failure()
