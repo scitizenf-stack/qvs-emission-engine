@@ -2,7 +2,7 @@
 seeds = false
 
 [programs.localnet]
-qvs_emission_engine = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+qvs_emission_engine = "5RSv4nJufUjDgpZNysecUxAXbLcvaRoUpNTZY4ufi7Yz"
 
 [registry]
 url = "https://anchor.project-serum.com"
