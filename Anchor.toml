@@ -1,6 +1,9 @@
 [features]
 seeds = false
 
+[toolchain]
+anchor_version = "0.30.1"
+
 [programs.localnet]
 qvs_emission_engine = "5RSv4nJufUjDgpZNysecUxAXbLcvaRoUpNTZY4ufi7Yz"
 
