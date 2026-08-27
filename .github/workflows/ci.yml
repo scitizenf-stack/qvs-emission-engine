@@ -42,10 +42,10 @@ jobs:
             echo "curl failed, trying wget"
             wget -qO solana.tar.bz2 "$TAR_URL"
           fi
-          mkdir -p "$HOME/.local/share/solana"
-          tar -xjf solana.tar.bz2 -C "$HOME/.local/share/solana" --strip-components=1
-          echo "$HOME/.local/share/solana/bin" >> $GITHUB_PATH
-          export PATH="$HOME/.local/share/solana/bin:$PATH"
+          mkdir -p "$HOME/.local/share/solana/install/active_release"
+          tar -xjf solana.tar.bz2 -C "$HOME/.local/share/solana/install/active_release" --strip-components=1
+          echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
           solana --version || true
 
       - name: Install Anchor CLI
