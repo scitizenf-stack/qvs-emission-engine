@@ -42,16 +42,18 @@ jobs:
             echo "curl failed, trying wget"
             wget -qO solana.tar.bz2 "$TAR_URL"
           fi
-          mkdir -p "$HOME/.local/share/solana/install/active_release"
-          tar -xjf solana.tar.bz2 -C "$HOME/.local/share/solana/install/active_release" --strip-components=1
+          RELEASE_DIR="$HOME/.local/share/solana/install/releases/$SOLANA_VERSION"
+          mkdir -p "$RELEASE_DIR"
+          tar -xjf solana.tar.bz2 -C "$RELEASE_DIR" --strip-components=1
+          ln -sfn "$RELEASE_DIR" "$HOME/.local/share/solana/install/active_release"
           echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
           export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
           solana --version || true
 
       - name: Install Anchor CLI
         run: |
-          cargo install --locked --force anchor-cli --version 1.1.2 || true
-          anchor --version || true
+          cargo install --locked --force --git https://github.com/coral-xyz/anchor --tag v0.30.1 anchor-cli
+          anchor --version
 
       - name: Install Node deps
         run: |
