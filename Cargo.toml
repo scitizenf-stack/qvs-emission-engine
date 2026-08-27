@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "programs/qvs_emission_engine",
+]
+resolver = "2"

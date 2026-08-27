@@ -1,0 +1,10 @@
+target/
+node_modules/
+.anchor/
+.npm/
+.env
+.DS_Store
+*.log
+coverage/
+.vscode/
+**/.DS_Store
