@@ -1,0 +1,72 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build frontend
+        run: |
+          npx esbuild src/worker.ts \
+            --bundle \
+            --platform=browser \
+            --format=esm \
+            --outfile=dist/_worker.js \
+            --target=es2022
+
+      - name: Validate artifact size
+        run: |
+          SIZE=$(wc -c < dist/index.html)
+          echo "index.html size: $SIZE bytes"
+          if [ "$SIZE" -lt 50000 ]; then
+            echo "❌ BLOCKED: dist/index.html is ${SIZE} bytes — minimum is 50KB. Stub deploy prevented."
+            exit 1
+          fi
+          echo "✅ Artifact size OK: ${SIZE} bytes"
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name quantum-vault --branch main --commit-dirty=true
+
+      - name: Deploy Worker (omega-router-production)
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy src/worker.ts --name omega-router-production --compatibility-date 2024-04-22 --env=""
+
+      - name: Verify health endpoints
+        run: |
+          echo "Checking Pages..."
+          curl -sf https://quantumvaultsolutions.com -o /dev/null && echo "✅ Pages OK" || echo "⚠️ Pages check failed"
+
+          echo "Checking Worker..."
+          curl -sf https://omega-router-production.securecitizenfoundation.workers.dev/api/health \
+            -o /dev/null && echo "✅ Worker OK" || echo "⚠️ Worker check failed"
+
+          echo "Checking Mint Engine..."
+          curl -sf https://quantum-mint-engine.securecitizenfoundation.workers.dev/api/quantum/health \
+            -o /dev/null && echo "✅ Mint Engine OK" || echo "⚠️ Mint Engine check failed"

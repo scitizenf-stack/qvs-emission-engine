@@ -1,15 +1,28 @@
-const anchor = require('@project-serum/anchor');
-const assert = require('assert');
+import * as anchor from '@coral-xyz/anchor';
+import { PublicKey, SystemProgram } from '@solana/web3.js';
 
-describe('anchor-harness-basic', () => {
+describe('anchor harness', () => {
   const provider = anchor.AnchorProvider.local();
   anchor.setProvider(provider);
 
-  it('initializes provider and program', async () => {
-    const program =
-      anchor.workspace['qvs_emission_engine'] ||
-      anchor.workspace['quantum_vault_ui'];
+  const program = anchor.workspace.qvsEmissionEngine;
 
-    assert.ok(program, 'Program workspace not found in anchor.workspace');
+  it('exposes the workspace program', async () => {
+    const [statePda] = PublicKey.findProgramAddressSync(
+      [Buffer.from('state'), provider.wallet.publicKey.toBuffer()],
+      program.programId,
+    );
+
+    await program.methods
+      .initialize(new anchor.BN(500), new anchor.BN(3), new anchor.BN(0), new anchor.BN(5000))
+      .accounts({
+        state: statePda,
+        authority: provider.wallet.publicKey,
+        systemProgram: SystemProgram.programId,
+      })
+      .rpc();
+
+    const state = await program.account.globalState.fetch(statePda);
+    anchor.assert(state.authority.equals(provider.wallet.publicKey));
   });
 });
