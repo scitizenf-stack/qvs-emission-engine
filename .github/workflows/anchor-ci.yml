@@ -55,7 +55,7 @@ jobs:
       - name: Install Anchor CLI
         run: |
           # Install the anchor-cli via cargo for a reproducible, versioned binary
-          cargo install --locked --force --git https://github.com/coral-xyz/anchor --tag v0.30.1 anchor-cli
+          cargo install --force --git https://github.com/coral-xyz/anchor --tag v0.30.1 anchor-cli
           anchor --version
 
       - name: Install Node deps
