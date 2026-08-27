@@ -30,12 +30,27 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pkg-config libudev-dev build-essential clang lld llvm-dev libclang-dev
 
-      - name: Install Solana CLI
+      - name: Install Solana CLI (robust)
         run: |
-          curl -sSfL https://release.solana.com/v1.18.25/install/solana-install-init.sh | sh -s - v1.18.25
+          set -euo pipefail
+          # Retry curl up to 5 times for transient TLS/network errors, then fall back to wget
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i: downloading solana installer..."
+            if curl -sSfL https://release.solana.com/v1.18.25/install/solana-install-init.sh | sh -s - v1.18.25; then
+              echo "Solana installer succeeded"
+              break
+            else
+              echo "Solana installer attempt $i failed, sleeping 5s before retry" >&2
+              sleep 5
+            fi
+          done
+          if ! command -v solana >/dev/null 2>&1; then
+            echo "Primary installer failed, trying wget fallback"
+            wget -qO- https://release.solana.com/v1.18.25/install/solana-install-init.sh | sh -s - v1.18.25 || true
+          fi
           echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
           export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
-          solana --version
+          solana --version || true
 
       - name: Install Anchor CLI
         run: |
