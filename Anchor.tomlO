@@ -12,5 +12,4 @@ qvs_emission_engine = "6pw4r97FHFyTsqC5Z7NHYA278i4HgWjK16wmrxWgTXe2"
 cluster = "localnet"
 wallet = "C:/Users/kasik/.config/solana/id.json"
 
-
 [hooks]

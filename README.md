@@ -48,4 +48,4 @@ node scripts/emit.js
 node scripts/read_state.js
 ```
 
-See [docs/DEVELOPER.md](docs/DEVELOPER.md) and [docs/OPERATION.md](docs/OPERATION.md) for the emission math, deployment steps, and devnet/localnet checklist.
+See [docs/DEVELOPER.md](docs/DEVELOPER.md), [docs/OPERATION.md](docs/OPERATION.md), and [docs/QVS_FINAL_SPEC.md](docs/QVS_FINAL_SPEC.md) for the emission math, deployment steps, and full build-ready QVS specification.
