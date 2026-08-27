@@ -61,12 +61,13 @@ jobs:
 
       - name: Build Anchor program
         run: |
-          export PATH="$HOME/.local/share/solana/bin:$PATH"
-          RUST_BACKTRACE=1 anchor build --skip-lint --ignore-keys
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+          anchor keys sync
+          RUST_BACKTRACE=1 anchor build --skip-lint
 
       - name: Run Anchor tests (full integration)
         run: |
-          export PATH="$HOME/.local/share/solana/bin:$PATH"
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
           RUST_BACKTRACE=1 anchor test -- --nocapture 2>&1 | tee /tmp/anchor-test.log
 
       - name: Upload logs
