@@ -1,14 +1,10 @@
-# Anchor / Solana
 target/
-test-ledger/
 node_modules/
+.anchor/
+.npm/
+.env
 .DS_Store
-
-# Solana CLI install artifacts
-.localsharesolanainstallactive_releasebin/
-
-# Logs
 *.log
-
-# VS Code
+coverage/
 .vscode/
+**/.DS_Store

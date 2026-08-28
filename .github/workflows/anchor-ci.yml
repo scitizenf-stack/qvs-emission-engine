@@ -1,0 +1,86 @@
+name: Anchor CI
+# ci-trigger: 2026-08-27T14:58:59-06:00 (no-op comment to retrigger workflow)
+
+on:
+  pull_request:
+    branches: [ master ]
+  push:
+    branches: [ 'fix/**', 'fix/ci-anchor-tests-rebased' ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install Rust toolchain
+        run: |
+          rustup toolchain install 1.88.0 --profile minimal
+          rustup default 1.88.0
+          rustc --version
+          cargo --version
+
+      - name: Install apt packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pkg-config libudev-dev build-essential clang lld llvm-dev libclang-dev
+
+      - name: Install Solana CLI (release tarball)
+        run: |
+          set -euo pipefail
+          SOLANA_VERSION="1.18.25"
+          TAR_URL="https://github.com/solana-labs/solana/releases/download/v${SOLANA_VERSION}/solana-release-x86_64-unknown-linux-gnu.tar.bz2"
+          TMPDIR=$(mktemp -d)
+          cd "$TMPDIR"
+          echo "Downloading solana release tarball $TAR_URL"
+          if ! curl -fsSL -o solana.tar.bz2 "$TAR_URL"; then
+            echo "curl failed, trying wget"
+            wget -qO solana.tar.bz2 "$TAR_URL"
+          fi
+          # Recreate the layout used by the official installer, including the release path.
+          RELEASE_DIR="$HOME/.local/share/solana/install/releases/$SOLANA_VERSION"
+          mkdir -p "$RELEASE_DIR"
+          tar -xjf solana.tar.bz2 -C "$RELEASE_DIR" --strip-components=1
+          ln -sfn "$RELEASE_DIR" "$HOME/.local/share/solana/install/active_release"
+          echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+          solana --version || true
+
+      - name: Install Anchor CLI
+        run: |
+          # Install the anchor-cli via cargo for a reproducible, versioned binary
+          cargo install --force --git https://github.com/coral-xyz/anchor --tag v0.30.1 anchor-cli
+          anchor --version
+
+      - name: Install Node deps
+        run: |
+          npm ci || npm install
+
+      - name: Build Anchor program
+        run: |
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+          anchor keys sync
+          RUST_BACKTRACE=1 anchor build --skip-lint
+
+      - name: Run Anchor tests (full integration)
+        run: |
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+          # Capture test output so it can be uploaded on failure
+          RUST_BACKTRACE=1 anchor test -- --nocapture 2>&1 | tee /tmp/anchor-test.log
+
+      - name: Upload logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: anchor-test-logs
+          path: |
+            ./target
+            /tmp/anchor-test.log
+            /tmp/solana-validator.log

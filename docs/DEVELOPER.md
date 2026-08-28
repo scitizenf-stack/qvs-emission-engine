@@ -1,50 +1,22 @@
-# Developer guide
+# Developer Guide
 
-## Emission model
-
-The program stores a single `GlobalState` account that tracks:
-
-- `genesis_timestamp`
-- `total_emitted`
-- `bump`
-- `paused`
-- `max_emission_pool`
-- `governance`
-
-The emission schedule is intentionally simple and deterministic:
-
-- each halving era is one year in seconds
-- the base emission is `1_000_000_000` native units (`1 QVS` at 9 decimals)
-- each era halves the issuance rate
-- `max_emission_pool` prevents runaway supply
-
-The calculation is implemented in `programs/qvs_emission_engine/src/halving.rs` and is kept immutable by design.
+Use a local validator for end-to-end execution.
 
 ## Local validation
 
-```powershell
+```bash
 solana-test-validator --reset
-$env:ANCHOR_PROVIDER_URL = "http://127.0.0.1:8899"
-anchor test
+anchor test -- --nocapture
 ```
 
-## Mint authority transfer
-
-After a mint is created, transfer mint authority to the program PDA so the program owns the minting authority:
+## Build
 
 ```bash
-spl-token authorize <MINT_ADDRESS> mint --new-authority <PDA_ADDRESS>
+anchor build
 ```
 
-## Common commands
+## Common caveats
 
-```bash
-# initialize state
-node scripts/initialize.js
-
-# emit a scheduled mint
-node scripts/emit.js
-
-# read program state
-node scripts/read_state.js
-```
+- Keep the program ID stable in `Anchor.toml` when moving between local and CI environments.
+- Use WSL for local runtime validation when the Windows host is inconsistent.
+- Keep scripts in `scripts/` simple and CLI-driven.

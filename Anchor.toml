@@ -1,16 +1,16 @@
-[toolchain]
-anchor_version = "1.1.2"
-
 [features]
-resolution = true
-skip-lint = false
+seeds = false
+
+[toolchain]
+anchor_version = "0.30.1"
 
 [programs.localnet]
-qvs_emission_engine = "6pw4r97FHFyTsqC5Z7NHYA278i4HgWjK16wmrxWgTXe2"
+qvs_emission_engine = "5RSv4nJufUjDgpZNysecUxAXbLcvaRoUpNTZY4ufi7Yz"
+
+[registry]
+url = "https://anchor.project-serum.com"
 
 [provider]
-cluster = "localnet"
-wallet = "C:/Users/kasik/.config/solana/id.json"
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
 
-
-[hooks]
